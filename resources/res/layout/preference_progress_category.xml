@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="center_vertical" android:orientation="horizontal" android:paddingTop="@dimen/op_control_margin_space7" android:paddingBottom="@dimen/op_control_margin_space1" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="?android:attr/listPreferredItemPaddingStart" android:paddingEnd="?android:attr/listPreferredItemPaddingEnd">
+    <LinearLayout android:gravity="left|center_vertical|center_horizontal|center|start" android:orientation="horizontal" android:id="@+id/icon_container" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <com.android.internal.widget.PreferenceImageView android:id="@android:id/icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="@dimen/op_control_avatar_size3" android:maxHeight="@dimen/op_control_avatar_size3"/>
+    </LinearLayout>
+    <TextView android:textColor="@color/op_control_text_color_secondary" android:layout_gravity="left|center_vertical|center_horizontal|center|start" android:id="@android:id/title" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:textAllCaps="true" style="@style/op_control_text_style_subtitle"/>
+    <ProgressBar android:layout_gravity="center_vertical" android:id="@+id/scanning_progress" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="32dp" android:text="@string/progress_scanning" android:layout_marginStart="16dp" style="?android:attr/progressBarStyleSmallTitle"/>
+</LinearLayout>

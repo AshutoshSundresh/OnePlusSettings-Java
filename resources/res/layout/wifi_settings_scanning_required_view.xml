@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:text="@string/wifi_settings_scanning_required_summary" android:layout_marginStart="24dp" android:layout_marginEnd="24dp" style="@style/TextAppearance.AppCompat.Subhead"/>
+    <LinearLayout android:gravity="top" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <ImageView android:padding="2dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4dp" android:src="@drawable/ic_info_outline_24dp" android:adjustViewBounds="true" android:maxWidth="24dp" android:maxHeight="24dp" android:layout_marginStart="24dp"/>
+        <TextView android:textAppearance="?android:attr/textAppearanceSmall" android:padding="8dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="8dp" android:text="@string/wifi_settings_scanning_required_info"/>
+    </LinearLayout>
+</LinearLayout>

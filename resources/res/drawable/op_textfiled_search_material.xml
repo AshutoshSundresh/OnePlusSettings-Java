@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<inset xmlns:android="http://schemas.android.com/apk/res/android">
+    <shape android:shape="rectangle">
+        <solid android:color="?attr/onePlusSearchBgColor"/>
+        <corners android:radius="48dp"/>
+        <stroke android:width="1px" android:color="?attr/onePlusSearchStrokeBgColor"/>
+    </shape>
+</inset>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <RelativeLayout android:id="@+id/app_header" android:paddingTop="12dp" android:paddingBottom="12dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="16dp">
+        <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <ImageView android:layout_gravity="center_vertical" android:id="@+id/icon" android:layout_width="24dp" android:layout_height="24dp" android:scaleType="centerInside"/>
+                <TextView android:textAppearance="@android:style/TextAppearance.DeviceDefault.Notification" android:layout_gravity="center_vertical" android:id="@+id/label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingStart="8dp"/>
+            </LinearLayout>
+            <TextView android:textAppearance="@android:style/TextAppearance.DeviceDefault.Notification.Title" android:layout_gravity="center_vertical" android:id="@+id/count" android:paddingTop="8dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingStart="6dp"/>
+        </LinearLayout>
+        <ImageButton android:id="@+id/expand" android:background="@drawable/button_ripple_radius" android:layout_width="48dp" android:layout_height="48dp" android:src="@android:drawable/ic_expand_more" android:layout_centerVertical="true" android:layout_alignParentEnd="true"/>
+    </RelativeLayout>
+    <View android:background="?android:attr/listDivider" android:layout_width="match_parent" android:layout_height="1dp"/>
+    <com.android.settings.notification.history.NotificationHistoryRecyclerView android:id="@+id/notification_list" android:scrollbars="none" android:clipChildren="true" android:clipToPadding="true" android:layout_width="match_parent" android:layout_height="wrap_content" android:importantForAccessibility="yes"/>
+</LinearLayout>

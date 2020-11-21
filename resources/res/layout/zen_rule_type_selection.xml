@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" android:scrollbarStyle="outsideOverlay" android:paddingTop="20dp" android:paddingBottom="24dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:fastScrollEnabled="true" android:paddingStart="24dp" android:paddingEnd="24dp">
+    <LinearLayout android:orientation="vertical" android:id="@+id/rule_container" android:layout_width="match_parent" android:layout_height="match_parent"/>
+</ScrollView>

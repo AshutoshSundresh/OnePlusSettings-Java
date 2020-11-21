@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto" android:title="@string/oneplus_fingerprint_animation_effect_title">
+    <com.oneplus.settings.ui.OPCustomFingeprintAnimVideoPreference android:key="op_custom_fingerprint_anim" settings:animation="@raw/op_custom_fingerprint_anim_1"/>
+</PreferenceScreen>

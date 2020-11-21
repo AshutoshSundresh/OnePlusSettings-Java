@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:id="@+id/tabs_container" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.android.settings.widget.SwitchBar android:theme="?attr/switchBarTheme" android:id="@+id/switch_bar" android:layout_width="match_parent" android:layout_height="?android:attr/actionBarSize"/>
+    <FrameLayout android:id="@android:id/tabcontent" android:layout_width="0dp" android:layout_height="0dp"/>
+    <FrameLayout android:id="@+id/prefs_container" android:clipChildren="false" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1" android:smoothScrollbar="false"/>
+</LinearLayout>

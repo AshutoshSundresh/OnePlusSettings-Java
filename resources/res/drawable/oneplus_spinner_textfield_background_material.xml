@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" android:paddingLeft="0dp" android:paddingRight="0dp" android:paddingStart="0dp" android:paddingEnd="0dp" android:paddingMode="stack">
+    <item android:gravity="top|bottom|right|center_vertical|fill_vertical|center_horizontal|center|end" android:width="48dp" android:drawable="@drawable/op_control_background_40dp_material"/>
+    <item android:gravity="right|center_vertical|center_horizontal|center|end" android:height="@dimen/op_control_icon_size_indicator" android:width="@dimen/op_control_icon_size_indicator" android:drawable="@drawable/oneplus_ic_spinner_caret" android:end="12dp"/>
+</layer-list>

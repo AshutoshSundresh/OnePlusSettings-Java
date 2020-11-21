@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:title="@string/cards_passes_sentence">
+    <com.android.settings.widget.VideoPreference android:key="global_actions_panel_video" app:animation="@raw/gesture_global_actions_panel"/>
+    <SwitchPreference android:title="@string/cards_passes_setting_toggle" android:key="gesture_global_actions_panel_switch" android:summary="@string/cards_passes_setting_subtitle" app:allowDividerAbove="true" app:controller="com.android.settings.gestures.GlobalActionsPanelPreferenceController" app:keywords="@string/keywords_cards_passes"/>
+</PreferenceScreen>

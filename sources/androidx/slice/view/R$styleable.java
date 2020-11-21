@@ -1,0 +1,43 @@
+package androidx.slice.view;
+
+public final class R$styleable {
+    public static final int[] RowStyle = {2130968591, 2130968706, 2130968707, 2130968862, 2130968875, 2130968950, 2130969006, 2130969007, 2130969193, 2130969639, 2130969640, 2130969642, 2130969710, 2130969793, 2130969794, 2130969998, 2130970000, 2130970001, 2130970011};
+    public static final int RowStyle_actionDividerHeight = 0;
+    public static final int RowStyle_bottomDividerEndPadding = 1;
+    public static final int RowStyle_bottomDividerStartPadding = 2;
+    public static final int RowStyle_contentEndPadding = 3;
+    public static final int RowStyle_contentStartPadding = 4;
+    public static final int RowStyle_disableRecyclerViewItemAnimator = 5;
+    public static final int RowStyle_endItemEndPadding = 6;
+    public static final int RowStyle_endItemStartPadding = 7;
+    public static final int RowStyle_iconSize = 8;
+    public static final int RowStyle_progressBarEndPadding = 9;
+    public static final int RowStyle_progressBarInlineWidth = 10;
+    public static final int RowStyle_progressBarStartPadding = 11;
+    public static final int RowStyle_seekBarInlineWidth = 12;
+    public static final int RowStyle_subContentEndPadding = 13;
+    public static final int RowStyle_subContentStartPadding = 14;
+    public static final int RowStyle_titleEndPadding = 15;
+    public static final int RowStyle_titleItemEndPadding = 16;
+    public static final int RowStyle_titleItemStartPadding = 17;
+    public static final int RowStyle_titleStartPadding = 18;
+    public static final int[] SliceView = {2130969099, 2130969100, 2130969101, 2130969102, 2130969103, 2130969161, 2130969163, 2130969164, 2130969687, 2130969688, 2130969689, 2130969690, 2130969798, 2130969800, 2130969970, 2130969993, 2130969996, 2130970010};
+    public static final int SliceView_gridBottomPadding = 0;
+    public static final int SliceView_gridSubtitleSize = 1;
+    public static final int SliceView_gridTextVerticalPadding = 2;
+    public static final int SliceView_gridTitleSize = 3;
+    public static final int SliceView_gridTopPadding = 4;
+    public static final int SliceView_headerSubtitleSize = 5;
+    public static final int SliceView_headerTextVerticalPadding = 6;
+    public static final int SliceView_headerTitleSize = 7;
+    public static final int SliceView_rowMaxHeight = 8;
+    public static final int SliceView_rowRangeHeight = 9;
+    public static final int SliceView_rowRangeSingleTextHeight = 10;
+    public static final int SliceView_rowStyle = 11;
+    public static final int SliceView_subtitleColor = 12;
+    public static final int SliceView_subtitleSize = 13;
+    public static final int SliceView_textVerticalPadding = 14;
+    public static final int SliceView_tintColor = 15;
+    public static final int SliceView_titleColor = 16;
+    public static final int SliceView_titleSize = 17;
+}

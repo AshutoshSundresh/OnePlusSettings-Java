@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:id="@+id/settings_title_panel" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@+id/settings_title_template" android:paddingTop="@android:dimen/dialog_title_divider_material" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="?android:attr/dialogPreferredPadding" android:paddingEnd="?android:attr/dialogPreferredPadding">
+        <ImageView android:id="@+id/settings_icon" android:layout_width="24dp" android:layout_height="24dp" android:layout_marginBottom="12dp"/>
+        <TextView android:ellipsize="end" android:id="@+id/settings_title" android:layout_width="match_parent" android:layout_height="wrap_content" android:singleLine="true" android:textAlignment="center" style="?android:attr/windowTitleStyle"/>
+    </LinearLayout>
+    <Space android:id="@+id/settings_title_divider" android:visibility="gone" android:layout_width="match_parent" android:layout_height="@android:dimen/disabled_alpha_device_default"/>
+</LinearLayout>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:descendantFocusability="blocksDescendants" android:layout_width="match_parent" android:layout_height="match_parent">
+    <View android:id="@+id/group_divider_area" android:layout_width="match_parent" android:layout_height="1dp"/>
+    <TextView android:textAppearance="@style/TextAppearance.Material.Body2" android:textColor="@color/settings_accent_color" android:id="@+id/tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12dp" android:paddingStart="16dp" style="@style/op_control_text_style_subtitle"/>
+    <RelativeLayout android:id="@+id/parent" android:layout_width="match_parent" android:layout_height="@dimen/oneplus_dashboard_two_line_minimum_height">
+        <ImageView android:gravity="center_vertical" android:id="@+id/icon" android:layout_width="40dp" android:layout_height="40dp" android:scaleType="fitCenter" android:layout_centerVertical="true" android:layout_marginStart="16dp" android:layout_marginEnd="16dp" android:layout_alignParentStart="true"/>
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="match_parent" android:paddingStart="16dp" android:layout_toEndOf="@+id/icon">
+            <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="2" android:layout_marginEnd="8dp">
+                <TextView android:textSize="@dimen/oneplus_settings_dashboard_tite_title_text_size" android:textColor="@color/oneplus_font_list_subtitle" android:gravity="center_vertical" android:id="@+id/name" android:layout_width="match_parent" android:layout_height="wrap_content" android:singleLine="true" android:textDirection="locale" android:textAlignment="viewStart"/>
+            </LinearLayout>
+            <RadioButton android:layout_gravity="center" android:id="@+id/radio_button" android:focusable="false" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="@dimen/oneplus_settings_padding_right"/>
+        </LinearLayout>
+        <View android:id="@+id/bottom_line" android:layout_width="match_parent" android:layout_height="1dp" android:layout_alignParentBottom="true"/>
+    </RelativeLayout>
+</LinearLayout>

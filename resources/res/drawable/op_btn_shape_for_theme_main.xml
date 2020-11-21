@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<inset xmlns:android="http://schemas.android.com/apk/res/android" android:insetLeft="@dimen/op_control_margin_space9" android:insetRight="@dimen/op_control_margin_space9" android:insetBottom="@dimen/op_control_margin_space9">
+    <shape android:tint="?attr/onePlusColorButtonNormal" android:shape="rectangle">
+        <corners android:radius="@dimen/op_control_radius_r4"/>
+        <solid android:color="@android:color/white"/>
+    </shape>
+</inset>

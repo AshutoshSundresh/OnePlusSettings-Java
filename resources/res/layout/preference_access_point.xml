@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto" android:gravity="center_vertical" android:background="?android:attr/selectableItemBackground" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="55dp">
+    <LinearLayout android:gravity="left|center_vertical|center_horizontal|center|start" android:clipToPadding="false" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1" android:paddingStart="13dp" android:paddingEnd="13dp">
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@+id/icon_frame" android:paddingTop="4dp" android:paddingBottom="4dp" android:clipToPadding="false" android:layout_width="38dp" android:layout_height="38dp" android:layout_marginEnd="8dp">
+            <androidx.preference.internal.PreferenceImageView android:id="@android:id/icon" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+        </LinearLayout>
+        <RelativeLayout android:paddingTop="16dp" android:paddingBottom="16dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1" android:paddingStart="5dp">
+            <LinearLayout android:orientation="horizontal" android:id="@+id/layout_title" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <TextView android:textAppearance="?android:attr/textAppearanceListItem" android:ellipsize="marquee" android:id="@android:id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true"/>
+                <ImageView android:layout_gravity="center_vertical" android:id="@+id/icon_passpoint" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:contentDescription="@null" android:layout_marginStart="6dp"/>
+            </LinearLayout>
+            <TextView android:textAppearance="?android:attr/textAppearanceListItemSecondary" android:textColor="?android:attr/textColorSecondary" android:id="@android:id/summary" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="10" android:layout_below="@+id/layout_title" android:layout_alignStart="@+id/layout_title"/>
+        </RelativeLayout>
+    </LinearLayout>
+    <include layout="@layout/preference_two_target_divider"/>
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@android:id/widget_frame" android:layout_width="wrap_content" android:layout_height="match_parent" android:minWidth="64dp"/>
+    <ImageButton android:layout_gravity="center" android:id="@+id/icon_button" android:background="?android:attr/selectableItemBackground" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="match_parent" android:minWidth="64dp" android:minHeight="@dimen/min_tap_target_size"/>
+</LinearLayout>

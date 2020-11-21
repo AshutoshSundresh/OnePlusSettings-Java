@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ScrollView android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1">
+        <TextView android:textAppearance="@android:style/TextAppearance.DeviceDefault.Body1" android:textColor="?android:attr/textColorPrimary" android:id="@+id/body" android:paddingTop="@dimen/sud_description_margin_top" android:paddingBottom="@dimen/sud_description_margin_bottom" android:layout_width="match_parent" android:layout_height="wrap_content" android:lineSpacingExtra="@dimen/sud_description_line_spacing_extra" android:paddingStart="@dimen/sud_layout_margin_sides" android:paddingEnd="@dimen/sud_layout_margin_sides"/>
+    </ScrollView>
+    <FrameLayout android:padding="4dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <Button android:textColor="@android:color/white" android:id="@+id/confirm" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/storage_menu_format" android:backgroundTint="@color/storage_wizard_button_red"/>
+    </FrameLayout>
+</LinearLayout>

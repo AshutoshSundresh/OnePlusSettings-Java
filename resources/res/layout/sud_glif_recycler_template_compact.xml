@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.setupcompat.view.StatusBarBackgroundLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/suc_layout_status" android:layout_width="match_parent" android:layout_height="match_parent">
+    <include layout="@layout/sud_glif_recycler_template_content"/>
+</com.google.android.setupcompat.view.StatusBarBackgroundLayout>

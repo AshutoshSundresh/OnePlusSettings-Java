@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <drawable name="homepage_card_bg_bottom">@drawable/homepage_card_bg_bottom_light</drawable>
+    <drawable name="homepage_card_bg_middle">@drawable/homepage_card_bg_middle_light</drawable>
+    <drawable name="homepage_card_bg_top">@drawable/homepage_card_bg_top_light</drawable>
+    <drawable name="ic_battery_lightning">@drawable/ic_battery_lightning_light</drawable>
+    <drawable name="notification_template_icon_bg">#3333b5e5</drawable>
+    <drawable name="notification_template_icon_low_bg">#0cffffff</drawable>
+    <drawable name="oneplus_divider_color">@color/oneplus_settings_divider_color</drawable>
+    <drawable name="oneplus_starting_window_blank_background">@color/op_control_bg_color_default</drawable>
+    <drawable name="op_ram_boost">@drawable/ram_boost_light</drawable>
+    <drawable name="op_seekbar_thumb">@drawable/op_seekbar_thumb_light</drawable>
+</resources>

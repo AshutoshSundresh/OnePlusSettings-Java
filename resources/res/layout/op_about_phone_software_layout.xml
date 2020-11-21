@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="horizontal" android:id="@+id/phone_software_info" android:paddingTop="29dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/op_control_margin_screen_left2" android:paddingEnd="@dimen/op_control_margin_screen_right2">
+    <androidx.recyclerview.widget.RecyclerView android:gravity="start" android:id="@+id/recycler_view_software_info" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+</LinearLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.settings.OPCheckableLinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="center_vertical" android:orientation="horizontal" android:background="?android:attr/selectableItemBackground" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="@dimen/oneplus_contorl_list_item_height" android:paddingEnd="?android:attr/dialogPreferredPadding">
+    <LinearLayout android:orientation="vertical" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+        <CheckedTextView android:textAppearance="@style/op_control_text_style_h6" android:textColor="?android:attr/textColorPrimary" android:ellipsize="marquee" android:gravity="center_vertical" android:id="@android:id/title" android:paddingTop="8dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/op_control_margin_space5"/>
+        <TextView android:textAppearance="@style/op_control_text_style_body1" android:textColor="?android:attr/textColorSecondary" android:id="@android:id/summary" android:paddingBottom="8dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:maxLines="10" android:paddingStart="@dimen/op_control_margin_space5" android:paddingEnd="@dimen/op_control_margin_space3"/>
+    </LinearLayout>
+    <ImageView android:id="@+id/marked" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+</com.android.settings.OPCheckableLinearLayout>

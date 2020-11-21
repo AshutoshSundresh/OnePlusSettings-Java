@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android" android:tint="@color/oneplus_accent_color" android:height="96dp" android:width="96dp" android:viewportWidth="96" android:viewportHeight="96">
+    <path android:fillColor="#000000" android:pathData="M48,48m-48,0a48,48 0,1 1,96 0a48,48 0,1 1,-96 0" android:strokeColor="#00000000" android:strokeWidth="1" android:fillType="1"/>
+</vector>

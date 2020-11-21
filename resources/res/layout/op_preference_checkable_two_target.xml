@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto" android:gravity="center_vertical" android:background="@android:color/transparent" android:paddingLeft="?android:attr/listPreferredItemPaddingLeft" android:paddingRight="?android:attr/listPreferredItemPaddingRight" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="?android:attr/listPreferredItemHeightSmall" android:paddingStart="?android:attr/listPreferredItemPaddingStart" android:paddingEnd="?android:attr/listPreferredItemPaddingEnd">
+    <LinearLayout android:gravity="left|center_vertical|center_horizontal|center|start" android:background="?android:attr/selectableItemBackground" android:clipToPadding="false" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1">
+        <include layout="@layout/op_preference_widget_checkbox"/>
+        <RelativeLayout android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1">
+            <TextView android:ellipsize="marquee" android:id="@android:id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" style="@style/OnePlus.TextAppearance.List.Title"/>
+            <TextView android:layout_gravity="start" android:id="@android:id/summary" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="10" android:layout_below="@android:id/title" android:layout_alignLeft="@android:id/title" android:textAlignment="viewStart" android:layout_alignStart="@android:id/title" style="@style/OnePlus.TextAppearance.List.Summary"/>
+        </RelativeLayout>
+    </LinearLayout>
+    <include layout="@layout/op_preference_two_target_divider"/>
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@android:id/widget_frame" android:layout_width="45dp" android:layout_height="45dp"/>
+</LinearLayout>

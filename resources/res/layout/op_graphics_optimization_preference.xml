@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="center" android:orientation="horizontal" android:id="@+id/gesture_animation_view" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="?android:attr/listPreferredItemHeightSmall" android:importantForAccessibility="noHideDescendants">
+    <TextureView android:id="@+id/video_texture_view" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+</LinearLayout>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android">
+    <translate android:interpolator="@interpolator/op_control_interpolator_fast_out_linear_in" android:duration="@integer/op_control_time_425" android:fromYDelta="0" android:toYDelta="100%"/>
+</set>

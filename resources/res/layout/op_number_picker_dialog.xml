@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="match_parent">
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="192dp">
+        <com.google.android.material.picker.NumberPicker android:id="@+id/numberPicker" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_centerInParent="true"/>
+        <View android:id="@+id/space" android:visibility="invisible" android:layout_width="66dp" android:layout_height="wrap_content" android:layout_centerInParent="true"/>
+        <TextView android:textAppearance="@style/op_control_text_style_body1" android:textColor="?attr/onePlusTextColorSecondary" android:id="@+id/min" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toRightOf="@+id/space" android:layout_centerVertical="true" android:layout_marginStart="@dimen/op_control_margin_space2"/>
+    </RelativeLayout> op_control_margin_space2 
+</LinearLayout>

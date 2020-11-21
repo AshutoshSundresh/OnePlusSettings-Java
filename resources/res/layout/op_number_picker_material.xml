@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<view xmlns:android="http://schemas.android.com/apk/res/android" android:textSize="21dp" android:gravity="center" android:id="@+id/numberpicker_input" android:background="@null" android:layout_width="match_parent" android:layout_height="wrap_content" android:singleLine="true" android:fontFamily="sans-serif-medium" class="com.google.android.material.picker.NumberPicker$CustomEditText"/>

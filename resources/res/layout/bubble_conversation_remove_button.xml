@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ImageButton xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/button" android:background="?android:attr/selectableItemBackground" android:layout_width="48dp" android:layout_height="48dp" android:src="@drawable/ic_delete_x" android:scaleType="centerInside" android:tint="?android:attr/textColorSecondary"/>

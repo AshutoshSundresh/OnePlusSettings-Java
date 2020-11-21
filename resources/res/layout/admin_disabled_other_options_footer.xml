@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:id="@+id/admin_disabled_other_options" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="?android:attr/dialogPreferredPadding" android:paddingEnd="?android:attr/dialogPreferredPadding">
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/admin_disabled_other_options"/>
+    <TextView android:textColor="@color/oneplus_accent_text_color" android:id="@+id/admin_more_details_link" android:background="?android:attr/selectableItemBackground" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/admin_more_details"/>
+</LinearLayout>

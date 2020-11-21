@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <CheckBox android:textAppearance="?android:attr/textAppearanceMedium" android:textColor="?android:attr/textColorAlertDialogListItem" android:gravity="center_vertical" android:id="@+id/lockscreen_remote_input" android:layout_width="0dp" android:layout_height="wrap_content" android:minHeight="?android:attr/listPreferredItemHeightSmall" android:text="@string/lockscreen_remote_input" android:layout_weight="1" android:paddingStart="20dp" android:paddingEnd="?android:attr/dialogPreferredPadding" android:layout_marginStart="20dp"/>
+    <ImageView android:layout_gravity="center_vertical" android:id="@+id/restricted_lock_icon_remote_input" android:layout_width="@android:dimen/config_restrictedIconSize" android:layout_height="@android:dimen/config_restrictedIconSize" android:src="@android:drawable/ic_info" android:scaleType="centerInside" android:tint="?android:attr/colorAccent" android:layout_marginEnd="?android:attr/dialogPreferredPadding"/>
+</LinearLayout>

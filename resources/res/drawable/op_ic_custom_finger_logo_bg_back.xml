@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bitmap xmlns:android="http://schemas.android.com/apk/res/android" android:src="@drawable/op_ic_custom_finger_logo_png_bg_back" android:tint="?android:attr/colorAccent"/>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto" android:title="@string/oneplus_memc_game" android:key="game_memc" settings:keywords="@string/oneplus_memc_game">
+    <PreferenceCategory android:title="@string/oneplus_memc_support_apps" android:key="support_game"/>
+    <Preference android:icon="@drawable/ic_chevron_right_24dp" android:title="@string/oneplus_memc_more_support_apps" android:key="get_more_game" settings:searchable="false"/>
+</PreferenceScreen>

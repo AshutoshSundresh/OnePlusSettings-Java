@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/panel_container" android:background="@drawable/settings_panel_background" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="left|center_vertical|center_horizontal|center|start" android:orientation="horizontal" android:id="@+id/panel_header" android:visibility="gone" android:layout_width="match_parent" android:layout_height="94dp">
+            <LinearLayout android:gravity="center" android:orientation="horizontal" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="16dp">
+                <ImageView android:id="@+id/title_icon" android:layout_width="@dimen/output_switcher_panel_icon_size" android:layout_height="@dimen/output_switcher_panel_icon_size"/>
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:paddingTop="@dimen/op_control_margin_space4" android:paddingBottom="9dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginStart="16dp" android:layout_marginEnd="16dp">
+                <TextView android:textColor="?android:attr/textColorPrimary" android:ellipsize="end" android:id="@+id/header_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" style="@style/op_control_text_style_h6"/>
+                <TextView android:textColor="?android:attr/textColorSecondary" android:ellipsize="end" android:id="@+id/header_subtitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" style="@style/op_control_text_style_body1"/>
+            </LinearLayout>
+        </LinearLayout>
+        <TextView android:textSize="20sp" android:textColor="?android:attr/textColorPrimary" android:gravity="center" android:id="@+id/panel_title" android:paddingTop="18dp" android:paddingBottom="24dp" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        <include layout="@layout/panel_slice_list"/>
+        <include android:id="@+id/footer_divider" android:visibility="gone" layout="@layout/horizontal_divider"/>
+        <RelativeLayout android:paddingTop="8dp" android:paddingBottom="8dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:textColor="@color/oneplus_accent_text_color" android:id="@+id/see_more" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/see_more" android:layout_alignParentLeft="true" android:layout_marginStart="@dimen/op_control_margin_space1" style="?android:attr/borderlessButtonStyle"/>
+            <TextView android:textColor="@color/oneplus_accent_text_color" android:id="@+id/done" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/done" android:layout_alignParentRight="true" android:layout_marginEnd="@dimen/op_control_margin_space1" style="?android:attr/borderlessButtonStyle"/>
+        </RelativeLayout>
+    </LinearLayout>
+</FrameLayout>

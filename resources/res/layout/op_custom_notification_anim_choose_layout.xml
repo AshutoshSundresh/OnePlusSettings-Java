@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="center_horizontal" android:orientation="vertical" android:clipChildren="true" android:clipToPadding="true" android:layout_width="match_parent" android:layout_height="match_parent">
+    <include android:gravity="center" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1" layout="@layout/op_custom_fingerprint_anim_video_layout"/>
+    <TextView android:textAppearance="@style/op_control_text_style_subtitle" android:textColor="@color/op_control_text_color_secondary" android:gravity="left|center_vertical|center_horizontal|center|start" android:id="@+id/anim_choose_title" android:paddingTop="@dimen/op_control_margin_space7" android:paddingBottom="@dimen/op_control_margin_space4" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/aod_horizon_light_select" android:textAllCaps="true" android:importantForAccessibility="no" android:paddingStart="?android:attr/listPreferredItemPaddingStart" android:paddingEnd="?android:attr/listPreferredItemPaddingEnd"/>
+    <androidx.recyclerview.widget.RecyclerView android:id="@+id/custom_fingerprint_anim_style_recyclerview" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    <include layout="@layout/op_bottom_actionbar"/>
+</LinearLayout>

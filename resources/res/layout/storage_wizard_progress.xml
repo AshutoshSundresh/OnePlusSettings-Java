@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.setupdesign.GlifLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/setup_wizard_layout" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent" style="@style/SudContentFrame">
+        <ProgressBar android:id="@+id/storage_wizard_progress" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/sud_description_margin_top" android:indeterminate="false" style="?android:attr/progressBarStyleHorizontal"/>
+        <TextView android:textColor="?android:attr/textColorSecondary" android:id="@+id/storage_wizard_progress_summary" android:layout_width="match_parent" android:layout_height="wrap_content" android:lineSpacingExtra="@dimen/sud_description_line_spacing_extra"/>
+        <TextView android:textColor="?android:attr/textColorPrimary" android:id="@+id/storage_wizard_body" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/sud_description_margin_top" android:lineSpacingExtra="@dimen/sud_description_line_spacing_extra"/>
+        <FrameLayout android:id="@+id/storage_wizard_aux" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    </LinearLayout>
+</com.google.android.setupdesign.GlifLayout>

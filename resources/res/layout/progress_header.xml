@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="3dp">
+    <View android:id="@+id/progress_bar_background" android:background="?android:attr/colorSecondary" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/TrimmedHorizontalProgressBar"/>
+    <ProgressBar android:id="@+id/progress_bar_animation" android:layout_width="match_parent" android:layout_height="wrap_content" android:indeterminate="true" style="@style/TrimmedHorizontalProgressBar"/>
+</FrameLayout>

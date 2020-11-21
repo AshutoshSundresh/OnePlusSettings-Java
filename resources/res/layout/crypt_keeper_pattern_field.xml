@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.android.internal.widget.LockPatternView android:id="@+id/lockPattern" android:background="@color/lock_pattern_background" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <include layout="@layout/crypt_keeper_switch_input_method"/>
+</merge>

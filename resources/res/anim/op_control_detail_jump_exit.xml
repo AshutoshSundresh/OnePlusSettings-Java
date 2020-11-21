@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android" android:shareInterpolator="false">
+    <translate android:interpolator="@interpolator/op_control_interpolator_fast_out_slow_in_auxiliary" android:duration="@integer/op_control_time_425" android:fromXDelta="0" android:toXDelta="0" android:fromYDelta="-100" android:toYDelta="0"/>
+    <alpha android:interpolator="@interpolator/op_control_interpolator_fast_out_slow_in_auxiliary" android:duration="@integer/op_control_time_325" android:fromAlpha="@dimen/op_control_alpha_0" android:toAlpha="@dimen/op_control_alpha_100"/>
+</set>

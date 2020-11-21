@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="control_empty_image_height">800px</dimen>
+    <dimen name="control_empty_image_margin_top">424px</dimen>
+    <dimen name="control_empty_image_width">1440px</dimen>
+    <dimen name="control_empty_temp_height">968px</dimen>
+    <dimen name="design_tab_bar_indicator_height">8px</dimen>
+    <dimen name="design_tab_bar_indicator_margin">0px</dimen>
+</resources>

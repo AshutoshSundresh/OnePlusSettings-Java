@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="right|center_vertical|center_horizontal|center|end" android:layout_gravity="right|center_vertical|center_horizontal|center|end" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <ImageView android:id="@+id/sync_failed" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_sync_problem_24dp" android:contentDescription="@string/sync_failed" android:layout_marginEnd="8dp"/>
+    <com.android.settingslib.widget.AnimatedImageView android:id="@+id/sync_active" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_list_sync_anim" android:contentDescription="@string/sync_active" android:layout_marginEnd="8dp"/>
+    <Switch android:layout_gravity="center_vertical" android:id="@android:id/switch_widget" android:focusable="false" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+</LinearLayout>

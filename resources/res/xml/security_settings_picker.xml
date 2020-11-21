@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto" android:title="@string/lock_settings_picker_title" android:key="lock_settings_picker">
+    <com.oneplus.settings.ui.OPPreferenceHeaderMargin android:key="preference_divider_line"/>
+    <Preference android:persistent="false" android:title="@string/unlock_set_unlock_off_title" android:key="unlock_set_off"/>
+    <Preference android:persistent="false" android:title="@string/unlock_set_unlock_none_title" android:key="unlock_set_none"/>
+    <Preference android:persistent="false" android:title="@string/unlock_set_unlock_pattern_title" android:key="unlock_set_pattern"/>
+    <Preference android:persistent="false" android:title="@string/unlock_set_unlock_pin_title" android:key="unlock_set_pin"/>
+    <Preference android:persistent="false" android:title="@string/unlock_set_unlock_password_title" android:key="unlock_set_password"/>
+    <Preference android:persistent="false" android:key="unlock_set_managed"/>
+    <Preference android:persistent="false" android:title="@string/fingerprint_unlock_skip_fingerprint" android:key="unlock_skip_fingerprint"/>
+    <Preference android:persistent="false" android:title="@string/face_unlock_skip_face" android:key="unlock_skip_face"/>
+    <com.android.settingslib.widget.FooterPreference android:selectable="false" android:key="lock_settings_footer" settings:searchable="false"/>
+</PreferenceScreen>

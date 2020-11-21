@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:layout_marginBottom="8dp" android:layout_marginStart="8dp">
+    <LinearLayout android:gravity="left|center_vertical|center_horizontal|center|start" android:orientation="horizontal" android:id="@+id/icon_container" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <com.android.internal.widget.PreferenceImageView android:id="@android:id/icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="48dp" android:maxHeight="48dp"/>
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="56dp">
+        <TextView android:textAppearance="@style/TextAppearance.Material.Body2" android:textColor="@color/oneplus_accent_text_color" android:id="@android:id/title" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="16dp" android:textAllCaps="true" android:textDirection="locale" android:textAlignment="viewStart" android:layoutDirection="locale" android:paddingEnd="@dimen/op_control_margin_space8" style="@style/op_control_text_style_subtitle"/>
+        <TextView android:textAppearance="?android:attr/textAppearanceListItemSecondary" android:textColor="?android:attr/textColorSecondary" android:ellipsize="end" android:id="@android:id/summary" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true"/>
+    </LinearLayout>
+</FrameLayout>

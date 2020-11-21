@@ -1,0 +1,10 @@
+package androidx.animation;
+
+class AndroidResources {
+    static final int[] STYLEABLE_ACCELERATE_INTERPOLATOR = {16843219};
+    static final int[] STYLEABLE_ANTICIPATEOVERSHOOT_INTERPOLATOR = {16843370, 16843371};
+    static final int[] STYLEABLE_CYCLE_INTERPOLATOR = {16843220};
+    static final int[] STYLEABLE_DECELERATE_INTERPOLATOR = {16843219};
+    static final int[] STYLEABLE_OVERSHOOT_INTERPOLATOR = {16843370};
+    public static final int[] STYLEABLE_PATH_INTERPOLATOR = {16843772, 16843773, 16843774, 16843775, 16843781};
+}

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="center_vertical" android:background="?android:attr/selectableItemBackground" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="?android:attr/listPreferredItemHeightSmall" android:paddingStart="?android:attr/listPreferredItemPaddingStart" android:paddingEnd="?android:attr/listPreferredItemPaddingEnd">
+    <LinearLayout android:gravity="left|center_vertical|center_horizontal|center|start" android:orientation="horizontal" android:id="@+id/icon_frame" android:paddingTop="4dp" android:paddingBottom="4dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="56dp" android:paddingEnd="8dp">
+        <ImageView android:id="@android:id/icon" android:layout_width="@dimen/secondary_app_icon_size" android:layout_height="@dimen/secondary_app_icon_size"/>
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:paddingTop="16dp" android:paddingBottom="16dp" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+        <TextView android:textAppearance="?android:attr/textAppearanceListItem" android:ellipsize="marquee" android:id="@android:id/title" android:fadingEdge="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true"/>
+        <TextView android:textAppearance="?android:attr/textAppearanceSmall" android:textColor="?android:attr/textColorSecondary" android:id="@android:id/summary" android:layout_width="match_parent" android:layout_height="wrap_content" android:textDirection="locale"/>
+        <TextView android:textAppearance="?android:attr/textAppearanceSmall" android:textColor="?android:attr/textColorSecondary" android:ellipsize="end" android:id="@+id/appendix" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:maxLines="1"/>
+        <ProgressBar android:id="@android:id/progress" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="4dp" android:max="100" style="?android:attr/progressBarStyleHorizontal"/>
+    </LinearLayout>
+    <LinearLayout android:gravity="right|center_vertical|center_horizontal|center|end" android:orientation="vertical" android:id="@android:id/widget_frame" android:layout_width="wrap_content" android:layout_height="match_parent" android:minWidth="64dp"/>
+</LinearLayout>

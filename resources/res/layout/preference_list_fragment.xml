@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:id="@+id/container_material" android:background="@android:color/transparent" android:layout_width="match_parent" android:layout_height="match_parent">
+    <FrameLayout android:id="@+id/pinned_header" android:background="?android:attr/windowBackground" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:elevation="1dp"/>
+    <FrameLayout android:id="@android:id/list_container" android:layout_width="match_parent" android:layout_height="0px" android:layout_weight="1">
+        <include layout="@layout/loading_container"/>
+    </FrameLayout>
+    <com.google.android.material.emptyview.EmptyPageView android:gravity="center_vertical" android:layout_gravity="center" android:id="@android:id/empty" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <LinearLayout android:theme="@style/Theme.TabTheme" android:orientation="vertical" android:id="@+id/tab_container" android:visibility="gone" android:clipChildren="true" android:clipToPadding="true" android:layout_width="match_parent" android:layout_height="match_parent">
+        <com.google.android.material.tabs.TabLayout android:id="@+id/tabs" android:background="@android:color/transparent" android:layout_width="match_parent" android:layout_height="wrap_content" android:layoutDirection="ltr" app:tabGravity="0" app:tabIndicatorColor="@android:color/accent_device_default" app:tabMaxWidth="0dp" app:tabMode="1" app:tabSelectedTextColor="@android:color/accent_device_default" app:tabTextAppearance="@style/TextAppearance.Tab" app:tabTextColor="?android:attr/textColorSecondary"/>
+        <View android:background="?android:attr/listDivider" android:layout_width="match_parent" android:layout_height="1dp"/>
+        <androidx.viewpager.widget.ViewPager android:id="@+id/view_pager" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    </LinearLayout>
+</LinearLayout>

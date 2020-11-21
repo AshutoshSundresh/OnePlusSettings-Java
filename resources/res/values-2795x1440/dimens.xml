@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="op_app_bar_collapsed_text_size">84px</dimen>
+    <dimen name="op_app_bar_collapsed_top_margin">6px</dimen>
+    <dimen name="op_app_bar_expand_text_size">192px</dimen>
+    <dimen name="op_app_bar_margin_top_without_tab">80px</dimen>
+    <dimen name="op_app_bar_subtitle_text_size">48px</dimen>
+</resources>

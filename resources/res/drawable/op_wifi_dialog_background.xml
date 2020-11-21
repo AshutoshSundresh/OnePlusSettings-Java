@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<inset xmlns:android="http://schemas.android.com/apk/res/android" android:insetBottom="12dp" android:inset="@dimen/op_dialog_background_inset">
+    <shape android:shape="rectangle">
+        <corners android:radius="@dimen/oneplus_contorl_radius_r8"/>
+        <solid android:color="?android:attr/colorBackground"/>
+    </shape>
+</inset>

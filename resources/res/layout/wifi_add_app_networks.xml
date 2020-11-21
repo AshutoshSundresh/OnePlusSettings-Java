@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto" android:id="@+id/panel_container" android:background="@drawable/settings_panel_background" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="left|center_vertical|center_horizontal|center|start" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="1" android:paddingStart="12dp" android:paddingEnd="?android:attr/listPreferredItemPaddingEnd">
+            <LinearLayout android:gravity="left|center_vertical|center_horizontal|center|start" android:orientation="horizontal" android:paddingTop="4dp" android:paddingBottom="4dp" android:clipToPadding="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="68dp">
+                <androidx.preference.internal.PreferenceImageView android:layout_gravity="center" android:id="@+id/app_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" settings:maxHeight="48dp" settings:maxWidth="48dp"/>
+            </LinearLayout>
+            <RelativeLayout android:paddingTop="16dp" android:paddingBottom="16dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1">
+                <TextView android:textAppearance="?android:attr/textAppearanceListItem" android:ellipsize="marquee" android:id="@+id/app_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true"/>
+                <TextView android:textAppearance="?android:attr/textAppearanceListItemSecondary" android:textColor="?android:attr/textColorSecondary" android:id="@+id/app_summary" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="10" android:layout_below="@+id/app_title" android:layout_alignStart="@+id/app_title"/>
+            </RelativeLayout>
+        </LinearLayout>
+        <include layout="@layout/horizontal_divider"/>
+        <LinearLayout android:orientation="vertical" android:id="@+id/single_network" android:paddingTop="24dp" android:paddingBottom="16dp" android:layout_width="match_parent" android:layout_height="144dp">
+            <ImageView android:layout_gravity="center_horizontal" android:id="@+id/signal_strength" android:layout_width="48dp" android:layout_height="48dp"/>
+            <TextView android:textAppearance="?android:attr/textAppearanceListItem" android:ellipsize="marquee" android:gravity="center" android:id="@+id/single_ssid" android:paddingTop="8dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:singleLine="true"/>
+            <TextView android:textColor="?android:attr/textColorSecondary" android:gravity="center" android:id="@+id/single_status" android:paddingTop="2dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:accessibilityLiveRegion="polite"/>
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@+id/multiple_networks" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <ListView android:scrollbarStyle="insideOverlay" android:id="@+id/config_list" android:layout_width="match_parent" android:layout_height="wrap_content" android:divider="@null"/>
+        </LinearLayout>
+        <include layout="@layout/horizontal_divider"/>
+        <LinearLayout android:orientation="horizontal" android:paddingTop="8dp" android:paddingBottom="8dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <Button android:id="@+id/cancel" android:layout_width="wrap_content" android:layout_height="48dp" android:text="@string/cancel" android:layout_marginStart="12dp" style="@android:style/Widget.DeviceDefault.Button.Borderless.Colored"/>
+            <Space android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1"/>
+            <Button android:id="@+id/save" android:layout_width="wrap_content" android:layout_height="48dp" android:text="@string/save" android:layout_marginEnd="12dp" style="@android:style/Widget.DeviceDefault.Button.Borderless.Colored"/>
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="start" android:background="?android:attr/selectableItemBackground" android:paddingTop="33dp" android:paddingBottom="@dimen/op_control_margin_space4" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="?android:attr/listPreferredItemHeightSmall" android:paddingStart="@dimen/op_control_margin_screen_left3" android:paddingEnd="@dimen/op_control_margin_screen_left3">
+    <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1">
+        <TextView android:textAppearance="@android:style/TextAppearance.DeviceDefault.Subhead" android:textColor="?android:attr/textColorPrimary" android:ellipsize="marquee" android:id="@android:id/title" android:visibility="gone" android:fadingEdge="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textAlignment="center"/>
+        <TextView android:textColor="@color/op_control_text_color_secondary" android:id="@android:id/summary" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="10" android:layout_below="@android:id/title" android:textAlignment="viewStart" android:layout_alignStart="@android:id/title" style="@style/op_control_text_style_body1"/>
+    </RelativeLayout>
+</LinearLayout>

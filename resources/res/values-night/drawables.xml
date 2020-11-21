@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <drawable name="homepage_card_bg_bottom">@drawable/homepage_card_bg_bottom_dark</drawable>
+    <drawable name="homepage_card_bg_middle">@drawable/homepage_card_bg_middle_dark</drawable>
+    <drawable name="homepage_card_bg_top">@drawable/homepage_card_bg_top_dark</drawable>
+    <drawable name="ic_battery_lightning">@drawable/ic_battery_lightning_dark</drawable>
+    <drawable name="op_ram_boost">@drawable/ram_boost_dark</drawable>
+    <drawable name="op_seekbar_thumb">@drawable/op_seekbar_thumb_dark</drawable>
+</resources>

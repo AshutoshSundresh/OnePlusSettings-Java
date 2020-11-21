@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:orientation="vertical" android:paddingTop="4dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/op_control_margin_screen_left3" android:paddingEnd="@dimen/op_control_margin_screen_right3">
+        <RadioGroup android:id="@+id/private_dns_radio_group" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <include android:id="@+id/private_dns_mode_off" layout="@layout/preference_widget_dialog_radiobutton"/>
+            <include android:id="@+id/private_dns_mode_opportunistic" layout="@layout/preference_widget_dialog_radiobutton"/>
+            <include android:id="@+id/private_dns_mode_provider" layout="@layout/preference_widget_dialog_radiobutton"/>
+            <EditText android:textSize="13sp" android:id="@+id/private_dns_mode_provider_hostname" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="48dp" android:hint="@string/private_dns_mode_provider_hostname_hint" android:inputType="none|text|textMultiLine|textUri|textEmailAddress|textEmailSubject|textPassword|textVisiblePassword|textWebEditText|textFilter" android:imeOptions="actionDone" style="@style/oneplus_contorl_text_style_subheading"/>
+        </RadioGroup>
+        <include android:id="@+id/private_dns_help_info" layout="@layout/preference_widget_dialog_summary"/>
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" android:title="@string/voice_input_settings_title">
+    <PreferenceCategory android:title="@string/voice_service_preference_section_title" android:key="voice_service_preference_section"/>
+</PreferenceScreen>

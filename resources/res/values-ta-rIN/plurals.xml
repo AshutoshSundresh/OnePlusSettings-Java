@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="oneplus_applock_wrong_pattern_warning">
+        <item quantity="one">%1$d முயற்சி மீதமுள்ளன</item>
+        <item quantity="other">%1$d முயற்சி மீதமுள்ளன</item>
+    </plurals>
+    <plurals name="oneplus_lockpattern_too_many_failed_confirmation_attempts_footer">
+        <item quantity="one">%d விநாடியில் மீண்டும் முயலவும்</item>
+        <item quantity="other">%d விநாடிகளில் மீண்டும் முயலவும்</item>
+    </plurals>
+    <plurals name="oneplus_zen_mode_duration_summary_time_hours">
+        <item quantity="one">1 மணிநேரம் (தானாக இயக்கப்படாத வரை)</item>
+        <item quantity="other">&lt;xliff: g id=num_hours example=3&gt;%d&lt;/xliff: g&gt; மணிநேரம் (தானாக இயக்கப்படாத வரை)</item>
+    </plurals>
+    <plurals name="op_location_settings_summary_location_on">
+        <item quantity="one">On - %1$d app has access to location</item>
+        <item quantity="other">On - %1$d apps have access to location</item>
+    </plurals>
+</resources>

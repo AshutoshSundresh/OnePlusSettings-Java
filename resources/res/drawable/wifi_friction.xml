@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:settings="http://schemas.android.com/apk/res/com.android.settings" xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/ic_friction_lock_closed" settings:state_encrypted="true"/>
+    <item android:drawable="@drawable/ic_friction_money" settings:state_metered="true"/>
+</selector>

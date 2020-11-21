@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ImageView android:layout_gravity="center" android:id="@+id/settings_button_no_background" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_settings_accent" android:scaleType="center" android:contentDescription="@string/settings_button"/>
+    <FrameLayout android:id="@+id/settings_button" android:background="@color/op_control_custom_background_color" android:visibility="invisible" android:layout_width="match_parent" android:layout_height="match_parent">
+        <ImageView android:layout_gravity="center" android:background="?android:attr/selectableItemBackground" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_settings_accent" android:scaleType="center" android:contentDescription="@string/settings_button" android:paddingStart="?android:attr/listPreferredItemPaddingStart" android:paddingEnd="?android:attr/listPreferredItemPaddingEnd"/>
+    </FrameLayout>
+</FrameLayout>

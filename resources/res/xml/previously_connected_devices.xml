@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto" android:title="@string/connected_device_previously_connected_screen_title">
+    <com.oneplus.settings.ui.OPPreferenceHeaderMargin android:key="preference_divider_line"/>
+    <PreferenceCategory android:key="saved_device_list" settings:controller="com.android.settings.connecteddevice.SavedDeviceGroupController"/>
+</PreferenceScreen>

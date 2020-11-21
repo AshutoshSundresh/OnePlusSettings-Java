@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginStart="16dp" android:layout_marginEnd="16dp">
+    <RelativeLayout android:gravity="center_vertical" android:layout_width="match_parent" android:layout_height="@dimen/oneplus_dashboard_tile_minimum_height">
+        <SeekBar android:id="@+id/seekbar" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_centerHorizontal="true"/>
+    </RelativeLayout>
+</LinearLayout>

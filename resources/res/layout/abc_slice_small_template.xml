@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:id="@+id/row_view" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:gravity="center_vertical" android:layout_gravity="center_vertical" android:orientation="horizontal" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1">
+        <LinearLayout android:gravity="left|center_vertical|center_horizontal|center|start" android:orientation="horizontal" android:id="@+id/icon_frame" android:paddingRight="12dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingEnd="12dp"/>
+        <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@android:id/content" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1">
+            <TextView android:textAppearance="?android:attr/textAppearanceListItem" android:ellipsize="end" android:id="@android:id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1"/>
+            <LinearLayout android:orientation="horizontal" android:id="@+id/subcontent" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <TextView android:ellipsize="end" android:id="@android:id/summary" android:layout_width="0dp" android:layout_height="wrap_content" android:maxLines="1" android:layout_weight="1"/>
+                <TextView android:ellipsize="end" android:id="@+id/last_updated" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1"/>
+            </LinearLayout>
+        </LinearLayout>
+        <include android:id="@+id/action_sent_indicator" layout="@layout/abc_slice_progress_view"/>
+        <View android:layout_gravity="center_vertical" android:id="@+id/action_divider" android:background="?android:attr/listDivider" android:visibility="gone" android:layout_width="1dp" android:layout_height="match_parent" android:layout_marginTop="8dp" android:layout_marginBottom="8dp"/>
+        <LinearLayout android:gravity="right|center_vertical|center_horizontal|center|end" android:orientation="horizontal" android:id="@android:id/widget_frame" android:paddingLeft="8dp" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingStart="8dp"/>
+    </LinearLayout>
+    <View android:id="@+id/bottom_divider" android:background="?android:attr/listDivider" android:visibility="gone" android:layout_width="match_parent" android:layout_height="1dp"/>
+</LinearLayout>

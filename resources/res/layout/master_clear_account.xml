@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/SudDescription.Glif">
+    <ImageView android:id="@android:id/icon" android:layout_width="56dp" android:layout_height="56dp" android:paddingEnd="8dp"/>
+    <TextView android:id="@android:id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/TextAppearance.SudGlifItemSummary"/>
+</LinearLayout>

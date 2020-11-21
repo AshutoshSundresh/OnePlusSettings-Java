@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:padding="8dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/wifi_ap_band_checkbox_padding">
+    <TextView android:textAppearance="?android:attr/textAppearanceSmall" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/wifi_ap_band_select_one" android:paddingStart="8dp"/>
+    <CheckBox android:textAppearance="?android:attr/textAppearanceMedium" android:id="@+id/box_2g" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/wifi_ap_band_checkbox_padding" android:layout_marginBottom="@dimen/wifi_ap_band_checkbox_padding" android:paddingStart="@dimen/wifi_ap_band_checkbox_padding"/>
+    <CheckBox android:textAppearance="?android:attr/textAppearanceMedium" android:id="@+id/box_5g" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/wifi_ap_band_checkbox_padding"/>
+</LinearLayout>

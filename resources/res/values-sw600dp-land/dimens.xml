@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="captioning_preview_height">150dp</dimen>
+    <dimen name="confirm_credentials_top_margin">24dp</dimen>
+    <dimen name="confirm_credentials_top_padding">20dp</dimen>
+    <dimen name="crypt_keeper_password_top_margin">116dp</dimen>
+    <dimen name="crypt_keeper_pattern_top_margin">128dp</dimen>
+    <dimen name="screen_margin_sides">128dp</dimen>
+    <dimen name="screen_margin_top">72dp</dimen>
+    <dimen name="screen_pinning_padding_end">128dp</dimen>
+    <dimen name="screen_pinning_padding_start">128dp</dimen>
+    <dimen name="sud_decor_padding_top">128dp</dimen>
+</resources>

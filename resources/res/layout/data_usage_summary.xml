@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TabHost xmlns:android="http://schemas.android.com/apk/res/android" android:id="@android:id/tabhost" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:id="@+id/tabs_container" android:background="@drawable/default_preference_background" android:layout_width="match_parent" android:layout_height="match_parent">
+        <FrameLayout android:id="@+id/pinned_header" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        <include layout="@layout/tab_widget"/>
+        <FrameLayout android:id="@android:id/tabcontent" android:layout_width="0dp" android:layout_height="0dp" style="@style/PreferenceFragmentListSinglePane"/>
+        <ListView android:id="@android:id/list" android:clipChildren="false" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1" android:smoothScrollbar="false" style="@style/PreferenceFragmentListSinglePane"/>
+    </LinearLayout>
+</TabHost>

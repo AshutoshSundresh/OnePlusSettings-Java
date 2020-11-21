@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="abc_dialog_fixed_width_major">50%</dimen>
+    <dimen name="abc_dialog_fixed_width_minor">70%</dimen>
+    <dimen name="abc_dialog_min_width_major">45%</dimen>
+    <dimen name="abc_dialog_min_width_minor">72%</dimen>
+    <dimen name="datetime_margin_bottom">96dp</dimen>
+    <dimen name="datetime_margin_top">154dp</dimen>
+    <dimen name="screen_margin_sides">128dp</dimen>
+    <dimen name="screen_pinning_padding_end">128dp</dimen>
+    <dimen name="screen_pinning_padding_start">128dp</dimen>
+</resources>

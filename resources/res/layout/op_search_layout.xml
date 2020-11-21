@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/search_layout" android:background="@drawable/op_search_bar_bg" android:layout_width="match_parent" android:layout_height="46dp" android:layout_marginTop="12dp" android:layout_marginBottom="@dimen/op_control_margin_space8" android:layout_marginStart="@dimen/op_control_margin_space8" android:layout_marginEnd="@dimen/op_control_margin_space8">
+    <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true" android:layout_centerVertical="true">
+        <ImageView android:id="@android:id/icon" android:layout_width="wrap_content" android:layout_height="match_parent" android:src="@drawable/op_ic_search" android:layout_marginEnd="10dp"/>
+        <TextView android:textAppearance="?android:attr/textAppearanceListItem" android:textColor="@color/op_control_text_color_secondary_default" android:ellipsize="marquee" android:id="@android:id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/search_menu" android:maxLines="1"/>
+        <TextView android:id="@android:id/summary" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+    </LinearLayout>
+</RelativeLayout>

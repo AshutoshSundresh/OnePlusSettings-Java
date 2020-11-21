@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <ImageView android:gravity="fill_horizontal" android:id="@+id/titleDivider" android:layout_width="match_parent" android:layout_height="1dp" android:src="@android:drawable/divider_horizontal_dark" android:scaleType="fitXY" android:contentDescription="@null"/>
+    <TextView android:textAppearance="?android:attr/textAppearanceSmall" android:textColor="?android:attr/textColorAlertDialogListItem" android:gravity="center" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="48dp" android:text="@string/keyboard_layout_dialog_switch_hint"/>
+</LinearLayout>

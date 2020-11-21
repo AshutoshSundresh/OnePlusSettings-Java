@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="control_empty_image_height">600px</dimen>
+    <dimen name="control_empty_image_width">1080px</dimen>
+    <dimen name="design_tab_bar_indicator_height">6px</dimen>
+    <dimen name="op_app_bar_collapsed_text_size">63px</dimen>
+    <dimen name="op_app_bar_collapsed_top_margin">12px</dimen>
+    <dimen name="op_app_bar_collapsed_top_subtitle_margin">18px</dimen>
+    <dimen name="op_app_bar_expand_text_size">144px</dimen>
+    <dimen name="op_app_bar_margin_top">12px</dimen>
+    <dimen name="op_app_bar_margin_top_without_tab">60px</dimen>
+    <dimen name="op_app_bar_subtitle_text_size">36px</dimen>
+</resources>

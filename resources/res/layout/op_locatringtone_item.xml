@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:paddingLeft="?android:attr/listPreferredItemPaddingLeft" android:paddingRight="?android:attr/listPreferredItemPaddingRight" android:layout_width="match_parent" android:layout_height="match_parent" android:minHeight="?android:attr/listPreferredItemHeightSmall" android:paddingStart="?android:attr/listPreferredItemPaddingStart" android:paddingEnd="?android:attr/listPreferredItemPaddingEnd">
+    <TextView android:textAppearance="?android:attr/textAppearanceListItem" android:ellipsize="marquee" android:id="@android:id/title" android:paddingTop="16dp" android:paddingBottom="16dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:layout_centerVertical="true" android:layout_marginEnd="16dp" android:layout_toStartOf="@+id/button_layout" android:layout_alignParentStart="true"/>
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@+id/button_layout" android:paddingRight="0dp" android:layout_width="45dp" android:layout_height="45dp" android:layout_centerVertical="true" android:paddingEnd="0dp" android:layout_alignParentEnd="true">
+        <RadioButton android:id="@+id/id_button" android:focusable="false" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+    </LinearLayout> &gt; 
+</RelativeLayout>

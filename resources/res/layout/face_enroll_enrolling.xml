@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.setupdesign.GlifLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/setup_wizard_layout" android:layout_width="match_parent" android:layout_height="match_parent" style="?attr/face_layout_theme">
+    <LinearLayout android:orientation="vertical" android:clipChildren="false" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="match_parent" style="@style/SudContentFrame">
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1">
+            <com.android.settings.biometrics.face.FaceSquareFrameLayout android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="1">
+                <com.android.settings.biometrics.face.FaceSquareTextureView android:id="@+id/texture_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:contentDescription="@null"/>
+                <ImageView android:id="@+id/circle_view" android:layout_width="match_parent" android:layout_height="match_parent"/>
+            </com.android.settings.biometrics.face.FaceSquareFrameLayout>
+            <TextView android:gravity="center" android:layout_gravity="bottom|center_vertical|center_horizontal|center" android:id="@+id/error_text" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:accessibilityLiveRegion="polite" style="@style/TextAppearance.ErrorText"/>
+        </LinearLayout>
+    </LinearLayout>
+</com.google.android.setupdesign.GlifLayout>

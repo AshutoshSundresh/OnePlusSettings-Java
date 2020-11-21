@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="bottom" android:orientation="horizontal" android:paddingTop="8dp" android:paddingBottom="8dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="?android:attr/listPreferredItemPaddingStart" android:paddingEnd="?android:attr/listPreferredItemPaddingEnd">
+    <Button android:layout_gravity="center_vertical" android:id="@+id/button" android:layout_width="120dp" android:layout_height="wrap_content" android:layout_weight="0.4"/>
+    <Space android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="0.2"/>
+    <Space android:layout_gravity="center_vertical" android:layout_width="120dp" android:layout_height="wrap_content" android:layout_weight="0.4"/>
+</LinearLayout>

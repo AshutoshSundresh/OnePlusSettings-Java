@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto" android:title="@string/op_charging_station" android:key="op_charging_station_setting">
+    <com.android.settingslib.widget.LayoutPreference android:layout="@layout/op_charging_station_header" android:title="@string/summary_placeholder" android:selectable="false" android:key="battery_header" settings:controller="com.oneplus.settings.chargingstations.OPChargingStationHeaderController"/>
+    <SwitchPreference android:title="@string/op_charging_Station_mute_notifications" android:key="op_charging_station_mute_notification" android:summary="@string/op_charing_station_mute_notifications_description"/>
+</PreferenceScreen>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="left|center_vertical|center_horizontal|center|start" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="?android:attr/listPreferredItemHeight" android:paddingStart="?android:attr/listPreferredItemPaddingStart" android:paddingEnd="?android:attr/listPreferredItemPaddingEnd">
+    <ImageView android:layout_gravity="center_vertical" android:id="@+id/icon" android:visibility="invisible" android:duplicateParentState="true" android:layout_width="40dp" android:layout_height="40dp" android:contentDescription="@null"/>
+    <RelativeLayout android:layout_gravity="center_vertical" android:duplicateParentState="true" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:layout_marginStart="16dp">
+        <TextView android:textAppearance="?android:attr/textAppearanceListItem" android:ellipsize="end" android:id="@+id/title" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true"/>
+        <TextView android:textAppearance="?android:attr/textAppearanceListItemSecondary" android:textColor="?android:attr/textColorSecondary" android:ellipsize="end" android:id="@+id/subtitle" android:visibility="gone" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:layout_below="@+id/title"/>
+    </RelativeLayout>
+    <LinearLayout android:id="@+id/more_info" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="match_parent">
+        <ImageView android:layout_gravity="center_vertical" android:paddingLeft="16dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@android:drawable/ic_info" android:tint="?android:attr/colorControlNormal" android:contentDescription="@string/printer_info_desc" android:tintMode="src_in"/>
+    </LinearLayout>
+</LinearLayout>

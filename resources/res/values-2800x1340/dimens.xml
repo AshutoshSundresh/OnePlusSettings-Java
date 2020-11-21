@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="oneplus_faceulock_mode_lottie_top_margin">450px</dimen>
+    <dimen name="oneplus_fingerprint_enroll_top_secondary_text_size">44px</dimen>
+    <dimen name="oneplus_fingerprint_enroll_top_title_text_size">108px</dimen>
+    <dimen name="oneplus_fnatic_video_height">1440px</dimen>
+    <dimen name="oneplus_fnatic_wallpaper_height">1386px</dimen>
+    <dimen name="oneplus_fnatic_wallpaper_top_margin">112px</dimen>
+    <dimen name="oneplus_fnatic_wallpaper_top_title_margin">220px</dimen>
+    <dimen name="oneplus_fnatic_wallpaper_top_title_textsize">108px</dimen>
+    <dimen name="oneplus_fnatic_wallpaper_width">640px</dimen>
+    <dimen name="oneplus_fod_finger_introduction_anim_height">904px</dimen>
+    <dimen name="oneplus_fod_finger_introduction_anim_width">800px</dimen>
+    <dimen name="oneplus_fod_fingerprint_enroll_complete_layout_margin_top">720px</dimen>
+    <dimen name="oneplus_fod_fingerprint_enroll_edge_lottie_height">1037px</dimen>
+    <dimen name="oneplus_fod_fingerprint_enroll_edge_lottie_witdh">828px</dimen>
+    <dimen name="oneplus_fod_fingerprint_enroll_layout_margin_top">560px</dimen>
+    <dimen name="oneplus_fod_fingerprint_enroll_lottie_layout_margin_top">450px</dimen>
+    <dimen name="oneplus_fod_fingerprint_enroll_lottie_view_width">710px</dimen>
+    <dimen name="oneplus_fod_fingerprint_enroll_top_margin">189px</dimen>
+    <dimen name="oneplus_fod_fingerprint_enroll_view_width">580px</dimen>
+    <dimen name="oneplus_fod_setup_fingerprint_enroll_complete_layout_margin_top">795px</dimen>
+    <dimen name="oneplus_fod_setup_fingerprint_enroll_layout_margin_top">600px</dimen>
+    <dimen name="oneplus_fod_setup_fingerprint_enroll_top_margin">371px</dimen>
+    <dimen name="op_guide_anim_show_height">1037px</dimen>
+    <dimen name="op_lab_feature_plugin_head_height">812px</dimen>
+    <dimen name="op_reading_mode_effect_show_height">938px</dimen>
+</resources>

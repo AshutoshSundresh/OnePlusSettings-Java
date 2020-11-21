@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/trusted_devices_prompt_layout" android:background="#ff80cbc4" android:layout_width="match_parent" android:layout_height="match_parent">
+    <androidx.appcompat.widget.Toolbar android:id="@+id/action_bar" android:layout_width="match_parent" android:layout_height="?android:attr/actionBarSize"/>
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:background="#ffb2dfdb" android:layout_width="match_parent" android:layout_height="200dp"/>
+        <ScrollView android:paddingBottom="48dp" android:layout_width="match_parent" android:layout_height="match_parent" android:fillViewport="true">
+            <LinearLayout android:orientation="vertical" android:id="@+id/nfc_how_it_works_image_text" android:paddingLeft="16dp" android:paddingTop="72dp" android:paddingRight="16dp" android:layout_width="match_parent" android:layout_height="match_parent">
+                <ImageView android:gravity="center" android:id="@+id/nfc_how_it_works_image" android:layout_width="match_parent" android:layout_height="188dp" android:src="@drawable/nfc_how_it_works"/>
+                <TextView android:textSize="24sp" android:textColor="#ff263238" android:id="@+id/nfc_how_it_works_title" android:paddingLeft="16dp" android:paddingRight="16dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/nfc_how_it_works_title"/>
+                <TextView android:textSize="16sp" android:textColor="#ff263238" android:id="@+id/nfc_how_it_works_content" android:paddingLeft="16dp" android:paddingTop="10dp" android:paddingRight="16dp" android:paddingBottom="18dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/nfc_how_it_works_content"/>
+            </LinearLayout>
+        </ScrollView>
+        <RelativeLayout android:background="#ffb2dfdb" android:layout_width="match_parent" android:layout_height="48dp" android:layout_alignParentBottom="true">
+            <Button android:textSize="14sp" android:textColor="#263238" android:id="@+id/nfc_how_it_works_button" android:background="?android:attr/selectableItemBackground" android:layout_width="wrap_content" android:layout_height="48dp" android:text="@string/nfc_how_it_works_got_it" android:layout_marginEnd="20dp" android:layout_alignParentEnd="true" style="?android:attr/borderlessButtonStyle"/>
+        </RelativeLayout>
+    </RelativeLayout>
+</FrameLayout>

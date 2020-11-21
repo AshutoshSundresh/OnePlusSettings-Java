@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ImageView xmlns:android="http://schemas.android.com/apk/res/android" android:layout_gravity="center" android:id="@+id/delete_button" android:background="?android:attr/selectableItemBackground" android:layout_width="match_parent" android:layout_height="match_parent" android:src="@drawable/op_ic_delete" android:scaleType="center" android:contentDescription="@string/delete" android:paddingStart="?android:attr/listPreferredItemPaddingEnd" android:paddingEnd="?android:attr/listPreferredItemPaddingEnd"/>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="oneplus_applock_wrong_pattern_warning">
+        <item quantity="one">%1$d টি প্রচেষ্টা বাঁকি রয়েছে</item>
+        <item quantity="other">আর %1$dটি প্রচেষ্টা করা বাকি রয়েছে</item>
+    </plurals>
+    <plurals name="oneplus_lockpattern_too_many_failed_confirmation_attempts_footer">
+        <item quantity="one">কিছুক্ষণ পর%d আবার চেষ্টা করুন</item>
+        <item quantity="other">কিছুক্ষণ পর %d আবার চেষ্টা করুন</item>
+    </plurals>
+    <plurals name="oneplus_zen_mode_duration_summary_time_hours">
+        <item quantity="one">1 ঘন্টা (স্বয়ংক্রিয়ভাবে চালু না হলে) %d ঘন্টা (স্বয়ংক্রিয়ভাবে চালু না হলে)</item>
+        <item quantity="other">1 ঘন্টা (স্বয়ংক্রিয়ভাবে চালু না হলে) %d ঘন্টা (স্বয়ংক্রিয়ভাবে চালু না হলে)</item>
+    </plurals>
+    <plurals name="op_location_settings_summary_location_on">
+        <item quantity="one">On - %1$d app has access to location</item>
+        <item quantity="other">On - %1$d apps have access to location</item>
+    </plurals>
+</resources>

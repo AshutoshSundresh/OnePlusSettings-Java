@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" android:title="@string/oneplus_vibrate_intensity" android:key="vibrate_intensity">
+    <com.oneplus.settings.ui.OPPreferenceHeaderMargin android:key="preference_divider_line"/>
+    <Preference android:title="@string/oneplus_incoming_call_vibrate_intensity" android:key="incoming_call_vibrate_intensity"/>
+    <Preference android:title="@string/oneplus_notice_vibrate_intensity" android:key="notice_vibrate_intensity"/>
+    <Preference android:title="@string/oneplus_vibrate_on_touch_intensity" android:key="vibrate_on_touch_intensity"/>
+</PreferenceScreen>

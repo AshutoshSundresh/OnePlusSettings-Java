@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/two_target_divider" android:paddingBottom="16dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/op_control_margin_list_top1">
+    <View android:background="?attr/onePlusDividerColor" android:layout_width="1dp" android:layout_height="21dp" android:layout_marginStart="@dimen/op_control_margin_space3" android:layout_marginEnd="12dp"/>
+</LinearLayout>

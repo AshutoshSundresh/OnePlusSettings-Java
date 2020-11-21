@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto" android:title="@string/manage_external_storage_title" android:key="manage_external_storage_permission_details">
+    <com.android.settings.widget.FilterTouchesSwitchPreference android:title="@string/permit_manage_external_storage" android:key="app_ops_settings_switch"/>
+    <com.android.settingslib.widget.FooterPreference android:title="@string/allow_manage_external_storage_description" android:selectable="false" settings:searchable="false"/>
+</PreferenceScreen>

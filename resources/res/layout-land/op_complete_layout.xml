@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="center" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ImageView android:id="@+id/complete_icon" android:layout_width="@dimen/complete_icon_size" android:layout_height="@dimen/complete_icon_size"/>
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="@dimen/complete_button_layout_minimum_width" android:layout_height="wrap_content" android:layout_marginStart="100dp">
+        <TextView android:textAppearance="@style/op_control_text_style_h4" android:textColor="?attr/onePlusTextColorPrimary" android:gravity="center" android:id="@+id/complete_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="2"/>
+        <TextView android:textAppearance="@style/op_control_text_style_h6" android:textColor="?attr/onePlusTextColorSecondary" android:gravity="center" android:id="@+id/complete_subheading_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/op_control_margin_space2" android:maxLines="2"/>
+        <LinearLayout android:orientation="vertical" android:id="@+id/complete_button_layout" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_marginTop="@dimen/op_control_margin_space6">
+            <Button android:id="@+id/complete_middle_top_action" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="100dp" android:singleLine="true" android:textAllCaps="true" style="@style/OnePlus.Widget.AppCompat.Button.Borderless.Small"/>
+            <Button android:id="@+id/complete_middle_bottom_action" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/op_control_margin_space1" android:minWidth="100dp" android:singleLine="true" android:textAllCaps="true" style="@style/OnePlus.Widget.AppCompat.Button.Borderless.Small"/>
+            <Button android:id="@+id/complete_bottom_right_action" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="80dp"/>
+            <Button android:id="@+id/complete_bottom_left_action" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/op_control_margin_space3" android:minWidth="80dp" style="@style/OnePlus.Widget.AppCompat.Button.Borderless.SubColored"/>
+            <Button android:id="@+id/complete_bottom_single_fix_action" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="180dp"/>
+            <Button android:id="@+id/complete_bottom_single_medium_action" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="180dp"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

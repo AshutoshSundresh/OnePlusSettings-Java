@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="op_button_text_font_weight">600</integer>
+</resources>

@@ -1,0 +1,68 @@
+package com.google.android.material;
+
+public final class R$attr {
+    public static final int ListItemViewStyle = 2130968576;
+    public static final int OPListViewStyle = 2130968577;
+    public static final int actionBarStyle = 2130968584;
+    public static final int appBarLayoutStyle = 2130968639;
+    public static final int appbarNavigationButtonStyle = 2130968640;
+    public static final int appbarStyle = 2130968641;
+    public static final int autoCompleteTextViewStyle = 2130968652;
+    public static final int badgeStyle = 2130968671;
+    public static final int bannerViewStyle = 2130968673;
+    public static final int bottomActionModeStyle = 2130968703;
+    public static final int bottomAppBarStyle = 2130968705;
+    public static final int bottomNavigationStyle = 2130968709;
+    public static final int bottomSheetDialogTheme = 2130968710;
+    public static final int bottomSheetStyle = 2130968711;
+    public static final int checkboxStyle = 2130968765;
+    public static final int chipGroupStyle = 2130968776;
+    public static final int chipStyle = 2130968794;
+    public static final int collapsingAppbarStyle = 2130968815;
+    public static final int colorControlActivated = 2130968821;
+    public static final int colorControlHighlight = 2130968822;
+    public static final int colorOnSurface = 2130968830;
+    public static final int colorPrimary = 2130968831;
+    public static final int colorPrimaryVariant = 2130968834;
+    public static final int colorSurface = 2130968837;
+    public static final int completePageStyle = 2130968850;
+    public static final int editTextStyle = 2130968987;
+    public static final int elevationOverlayColor = 2130968989;
+    public static final int elevationOverlayEnabled = 2130968990;
+    public static final int emptyPageStyle = 2130968994;
+    public static final int emptyTextStyle = 2130968996;
+    public static final int extendedFloatingActionButtonStyle = 2130969035;
+    public static final int floatingActionButtonStyle = 2130969056;
+    public static final int hintSearchViewStyle = 2130969178;
+    public static final int isMaterialTheme = 2130969232;
+    public static final int materialButtonStyle = 2130969390;
+    public static final int materialButtonToggleGroupStyle = 2130969391;
+    public static final int materialCalendarFullscreenTheme = 2130969393;
+    public static final int materialCalendarStyle = 2130969400;
+    public static final int materialCalendarTheme = 2130969401;
+    public static final int materialCardViewStyle = 2130969402;
+    public static final int materialThemeOverlay = 2130969403;
+    public static final int navigationViewStyle = 2130969462;
+    public static final int numberPickerStyle = 2130969469;
+    public static final int pickerColorActivated = 2130969573;
+    public static final int pickerColorUnActivated = 2130969574;
+    public static final int pickerInputLabelUnActivated = 2130969575;
+    public static final int radioButtonStyle = 2130969653;
+    public static final int rectangleFloatingActionButtonStyle = 2130969659;
+    public static final int sliderStyle = 2130969755;
+    @Deprecated
+    public static final int state_collapsed = 2130969776;
+    @Deprecated
+    public static final int state_collapsible = 2130969777;
+    public static final int state_dragged = 2130969778;
+    public static final int state_liftable = 2130969781;
+    public static final int state_lifted = 2130969782;
+    public static final int switchFloatingActionButtonStyle = 2130969890;
+    public static final int switchStyle = 2130969895;
+    public static final int tabBarStyle = 2130969900;
+    public static final int tabStyle = 2130969922;
+    public static final int textAppearanceLineHeightEnabled = 2130969945;
+    public static final int theme = 2130969972;
+    public static final int timePickerStyle = 2130969990;
+    public static final int toolbarStyle = 2130970018;
+}

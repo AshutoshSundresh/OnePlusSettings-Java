@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.oneplus.settings.edgeeffect.SpringListView2 android:id="@+id/op_app_list" android:layout_width="match_parent" android:layout_height="match_parent" android:divider="@null" android:dividerHeight="@dimen/op_control_divider_height_standard"/>
+    <com.google.android.material.emptyview.EmptyPageView android:id="@+id/op_empty_list_tips_view" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <include layout="@layout/loading_container"/>
+</RelativeLayout>

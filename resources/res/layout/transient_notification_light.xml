@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.SmoothRoundLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="match_parent" android:layout_height="match_parent" app:cornerRadius="23.2dp">
+    <LinearLayout android:orientation="vertical" android:background="@drawable/toast_background" android:layout_width="match_parent" android:layout_height="match_parent">
+        <TextView android:textAppearance="@style/TextAppearance.Toast" android:textColor="@color/op_control_text_color_primary_light" android:layout_gravity="center_horizontal" android:id="@android:id/message" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12dp" android:layout_marginBottom="12dp" android:layout_weight="1" android:layout_marginStart="24dp" android:layout_marginEnd="24dp" android:breakStrategy="0" style="@style/op_control_text_style_h6"/>
+    </LinearLayout>
+</androidx.appcompat.widget.SmoothRoundLayout>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" android:title="@string/oneplus_ring_pattern">
+    <com.oneplus.settings.ui.OPPreferenceHeaderMargin android:key="preference_divider_line"/>
+    <SwitchPreference android:persistent="false" android:title="@string/vibrate_when_ringing_title" android:key="vibrate_when_ringing"/>
+</PreferenceScreen>

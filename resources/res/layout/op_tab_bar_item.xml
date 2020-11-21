@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center" android:id="@+id/icon" android:duplicateParentState="true" android:layout_width="20dp" android:layout_height="20dp" android:contentDescription="@null"/>
+</merge>

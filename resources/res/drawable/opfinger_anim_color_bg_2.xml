@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bitmap xmlns:android="http://schemas.android.com/apk/res/android" android:src="@drawable/opfinger_anim_bg_02" android:tint="@color/oneplus_finger_anim_bg_color"/>

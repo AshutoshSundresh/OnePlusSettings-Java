@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:top="2dp" android:bottom="2dp" android:start="2dp" android:end="2dp">
+        <com.oneplus.settings.widget.OPAdaptiveIconShapeDrawable android:height="@dimen/dashboard_tile_image_size" android:width="@dimen/dashboard_tile_image_size" android:color="@color/oneplus_accent_color"/>
+    </item>
+    <item android:height="@dimen/dashboard_tile_foreground_image_size" android:width="@dimen/dashboard_tile_foreground_image_size" android:drawable="@drawable/ic_op_shape_location_for_adaptive" android:top="11dp" android:start="11dp"/>
+</layer-list>

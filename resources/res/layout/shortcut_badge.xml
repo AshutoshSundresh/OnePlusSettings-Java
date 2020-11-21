@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="@dimen/shortcut_size" android:layout_height="@dimen/shortcut_size">
+    <ImageView android:layout_width="@dimen/shortcut_size" android:layout_height="@dimen/shortcut_size" android:src="@drawable/shortcut_base" android:scaleType="fitXY"/>
+    <ImageView android:id="@android:id/icon" android:padding="12dp" android:layout_width="@dimen/shortcut_size" android:layout_height="@dimen/shortcut_size" android:scaleType="fitXY" android:tint="@color/icon_accent"/>
+</RelativeLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.setupdesign.GlifLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/setup_wizard_layout" android:layout_width="match_parent" android:layout_height="match_parent" style="?attr/fingerprint_layout_theme">
+    <LinearLayout android:orientation="vertical" android:clipChildren="false" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="match_parent" style="@style/SudContentFrame">
+        <TextView android:id="@+id/sud_layout_description" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/sud_description_glif_margin_top" android:text="@string/security_settings_fingerprint_enroll_finish_message" android:minLines="3" style="@style/SudDescription.Glif"/>
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1">
+            <com.google.android.setupdesign.view.FillContentLayout android:gravity="center" android:paddingTop="0dp" android:paddingBottom="0dp" android:layout_width="@dimen/fingerprint_progress_bar_max_size" android:layout_height="@dimen/fingerprint_progress_bar_max_size" android:layout_marginVertical="24dp">
+                <ImageView android:id="@+id/fingerprint_in_app_indicator" android:padding="7dp" android:layout_width="match_parent" android:layout_height="match_parent" android:src="@drawable/fingerprint_enroll_finish" android:contentDescription="@android:string/fingerprint_icon_content_description" style="@style/SudContentIllustration"/>
+            </com.google.android.setupdesign.view.FillContentLayout>
+            <TextView android:layout_gravity="bottom|center_vertical|center_horizontal|center" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/TextAppearance.ErrorText"/>
+        </LinearLayout>
+    </LinearLayout>
+</com.google.android.setupdesign.GlifLayout>

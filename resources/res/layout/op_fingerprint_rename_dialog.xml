@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:paddingLeft="20dp" android:paddingRight="20dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <EditText android:textSize="14sp" android:gravity="top" android:id="@+id/opfinger_rename_ed" android:focusable="true" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="20dp" android:maxLength="18" android:textAlignment="viewStart"/>
+</LinearLayout>

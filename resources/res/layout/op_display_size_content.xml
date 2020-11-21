@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:orientation="vertical" android:paddingTop="8dp" android:paddingBottom="4dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <include android:id="@+id/ignore_default" android:visibility="gone" layout="@layout/op_display_size_radio"/>
+        <include android:id="@+id/ignore_off" layout="@layout/op_display_size_radio"/>
+        <include android:id="@+id/ignore_on" android:visibility="gone" layout="@layout/op_display_size_radio"/>
+    </LinearLayout>
+</ScrollView>

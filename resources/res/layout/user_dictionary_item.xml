@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="center_vertical" android:background="?android:attr/selectableItemBackground" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="?android:attr/listPreferredItemHeight" android:paddingEnd="?android:attr/scrollbarSize">
+    <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6dp" android:layout_marginBottom="6dp" android:layout_weight="1" android:layout_marginStart="15dp" android:layout_marginEnd="6dp">
+        <TextView android:textAppearance="?android:attr/textAppearanceMedium" android:textColor="@color/op_control_text_color_primary_default" android:ellipsize="marquee" android:id="@android:id/text1" android:fadingEdge="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true"/>
+        <TextView android:textAppearance="?android:attr/textAppearanceSmall" android:textColor="?android:attr/textColorSecondary" android:id="@android:id/text2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:layout_below="@android:id/text1" android:layout_alignStart="@android:id/text1"/>
+    </RelativeLayout>
+</LinearLayout>

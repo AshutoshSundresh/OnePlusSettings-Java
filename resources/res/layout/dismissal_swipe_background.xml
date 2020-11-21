@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/dismissal_swipe_background" android:background="@color/contextual_card_dismissal_background" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ImageView android:layout_gravity="left|center_vertical|center_horizontal|center|start" android:id="@+id/dismissal_icon_start" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_delete" android:layout_marginStart="@dimen/contextual_card_dismissal_side_margin"/>
+    <Space android:layout_width="0dp" android:layout_height="0dp" android:layout_weight="1"/>
+    <ImageView android:layout_gravity="right|center_vertical|center_horizontal|center|end" android:id="@+id/dismissal_icon_end" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_delete" android:layout_marginEnd="@dimen/contextual_card_dismissal_side_margin"/>
+</LinearLayout>

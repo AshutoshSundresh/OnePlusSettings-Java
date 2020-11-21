@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:height="64dp" android:width="64dp" android:drawable="@drawable/ic_op_shape_square_enable"/>
+    <item android:height="28dp" android:width="28dp" android:drawable="@drawable/ic_op_shape_wifi_for_adaptive" android:top="18dp" android:start="18dp"/>
+</layer-list>

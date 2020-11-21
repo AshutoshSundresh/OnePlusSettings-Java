@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
+    <SwitchPreference android:icon="@drawable/ic_op_ic_settings_adaptive_battery" android:title="@string/op_battery_suggestion_summary" android:key="smart_battery_manager" android:fragment="com.android.settings.fuelgauge.SmartBatterySettings" settings:controller="com.android.settings.fuelgauge.batterytip.BatteryManagerPreferenceController"/>
+    <SwitchPreference android:icon="@drawable/op_ic_settings_sleep_standby_optimization" android:title="@string/oneplus_sleep_standby_title" android:key="sleep_standby" android:summary="@string/oneplus_sleep_standby_summary"/>
+</PreferenceScreen>

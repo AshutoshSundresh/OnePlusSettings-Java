@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<inset xmlns:android="http://schemas.android.com/apk/res/android" android:inset="@dimen/op_dialog_picker_background_inset">
+    <shape android:shape="rectangle">
+        <corners android:radius="@dimen/op_control_radius_r12"/>
+        <solid android:color="?android:attr/colorBackground"/>
+    </shape>
+</inset>

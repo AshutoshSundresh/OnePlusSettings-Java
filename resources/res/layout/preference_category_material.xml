@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <TextView android:textAppearance="@style/op_control_text_style_subtitle" android:textColor="@color/op_control_text_color_secondary_default" android:gravity="bottom|left|center_vertical|center_horizontal|center|start" android:id="@android:id/title" android:paddingBottom="@dimen/op_control_margin_space1" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/op_control_margin_space7" android:textAllCaps="true" android:textDirection="locale" android:layoutDirection="locale" android:paddingStart="@dimen/op_control_margin_screen_left3" android:paddingEnd="@dimen/op_control_margin_screen_right3"/>
+</LinearLayout>

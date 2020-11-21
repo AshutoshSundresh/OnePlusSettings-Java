@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:padding="8dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/op_control_margin_screen_left3" android:paddingEnd="@dimen/op_control_margin_screen_left3">
+    <RadioGroup android:id="@+id/radioGroup_ap_band" android:layout_width="match_parent" android:layout_height="wrap_content" android:contentDescription="@string/wifi_ap_band_config">
+        <RadioButton android:textAppearance="?android:attr/textAppearanceListItem" android:id="@+id/radio_2g" android:background="@color/transparent" android:layout_width="match_parent" android:layout_height="@dimen/oneplus_settings_list_item_height_one_line2" android:checked="true" android:button="@null" android:drawableRight="@drawable/op_btn_image_single_choice_selector"/>
+        <RadioButton android:textAppearance="?android:attr/textAppearanceListItem" android:id="@+id/radio_5g" android:background="@color/transparent" android:layout_width="match_parent" android:layout_height="@dimen/oneplus_settings_list_item_height_one_line2" android:checked="true" android:button="@null" android:drawableRight="@drawable/op_btn_image_single_choice_selector"/>
+    </RadioGroup>
+</LinearLayout>

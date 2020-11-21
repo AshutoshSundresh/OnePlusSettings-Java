@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto" android:gravity="center_vertical" android:background="?android:attr/selectableItemBackground" android:paddingLeft="?android:attr/listPreferredItemPaddingLeft" android:paddingRight="?android:attr/listPreferredItemPaddingRight" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="?android:attr/listPreferredItemHeightSmall" android:paddingStart="?android:attr/listPreferredItemPaddingStart" android:paddingEnd="?android:attr/listPreferredItemPaddingEnd">
+    <LinearLayout android:gravity="left|center_vertical|center_horizontal|center|start" android:orientation="vertical" android:id="@android:id/widget_frame" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="@dimen/op_control_margin_space3"/>
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/icon_frame" android:paddingTop="4dp" android:paddingBottom="4dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="32dp" android:layout_marginEnd="16dp">
+        <androidx.preference.internal.PreferenceImageView android:id="@android:id/icon" android:layout_width="wrap_content" android:layout_height="wrap_content" settings:maxHeight="@dimen/secondary_app_icon_size" settings:maxWidth="@dimen/secondary_app_icon_size"/>
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_marginTop="@dimen/op_control_margin_list_top4" android:layout_marginBottom="@dimen/op_control_margin_list_bottom4" android:layout_weight="1">
+        <TextView android:ellipsize="marquee" android:id="@android:id/title" android:fadingEdge="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" style="@style/OnePlus.TextAppearance.List.Title"/>
+        <TextView android:id="@android:id/summary" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="1" android:textAlignment="viewStart" style="@style/OnePlus.TextAppearance.List.Summary"/>
+    </LinearLayout>
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/radio_extra_widget_container" android:layout_width="wrap_content" android:layout_height="match_parent">
+        <View android:id="@+id/radio_extra_widget_divider" android:background="?attr/onePlusDividerColor" android:layout_width="1dp" android:layout_height="21dp" android:layout_marginTop="@dimen/op_control_margin_list_top1" android:layout_marginBottom="@dimen/op_control_margin_list_top1" android:layout_marginStart="@dimen/op_control_margin_space3" android:layout_marginEnd="12dp"/>
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="45dp" android:layout_height="45dp">
+            <ImageView android:gravity="center" android:id="@+id/radio_extra_widget" android:background="?android:attr/selectableItemBackground" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_settings_about" android:contentDescription="@string/information_label"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

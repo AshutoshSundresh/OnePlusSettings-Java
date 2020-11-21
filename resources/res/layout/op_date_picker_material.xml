@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <include android:layout_width="match_parent" android:layout_height="wrap_content" layout="@layout/op_date_picker_header_material"/>
+    <ScrollView android:layout_width="match_parent" android:layout_height="wrap_content" android:fadeScrollbars="false" android:scrollIndicators="3">
+        <include android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1" layout="@layout/op_date_picker_view_animator_material"/>
+    </ScrollView>
+</LinearLayout>

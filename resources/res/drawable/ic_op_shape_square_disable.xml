@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android" android:tint="@color/oneplus_icon_adptive_disable_background_color" android:height="96dp" android:width="96dp" android:viewportWidth="96" android:viewportHeight="96">
+    <path android:fillColor="#000000" android:pathData="M6.0952,0L89.9048,0A6.0952,6.0952 0,0 1,96 6.0952L96,89.9048A6.0952,6.0952 0,0 1,89.9048 96L6.0952,96A6.0952,6.0952 0,0 1,0 89.9048L0,6.0952A6.0952,6.0952 0,0 1,6.0952 0z" android:strokeColor="#00000000" android:strokeWidth="1" android:fillType="1"/>
+</vector>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:paddingBottom="3dp" android:scrollbars="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="6dp" android:paddingEnd="6dp">
+        <TextView android:textStyle="bold" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:text="@string/proxy_hostname_label" android:maxLines="1"/>
+        <EditText android:id="@+id/hostname" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="2dp" android:maxLines="1" android:scrollHorizontally="true" android:capitalize="none" android:autoText="false"/>
+        <TextView android:textStyle="bold" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4dp" android:text="@string/proxy_port_label" android:maxLines="1"/>
+        <EditText android:id="@+id/port" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="2dp" android:maxLines="1" android:scrollHorizontally="true" android:numeric="integer"/>
+        <TextView android:textStyle="bold" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4dp" android:text="@string/proxy_exclusionlist_label" android:maxLines="1"/>
+        <EditText android:id="@+id/exclusionlist" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="2dp" android:maxLines="1" android:scrollHorizontally="true" android:singleLine="true" android:capitalize="none" android:autoText="false"/>
+        <LinearLayout android:orientation="horizontal" android:paddingTop="8dp" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <Button android:id="@+id/action" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="@string/proxy_action_text" android:layout_weight="1"/>
+            <Button android:id="@+id/clear" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="@string/proxy_clear_text" android:layout_weight="1"/>
+            <Button android:id="@+id/defaultView" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="@string/proxy_defaultView_text" android:layout_weight="1"/>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

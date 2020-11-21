@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <ImageView android:layout_width="match_parent" android:layout_height="@dimen/nfc_detection_point_height" android:src="@drawable/nfc_detection_point" android:scaleType="centerCrop" android:cropToPadding="true" android:contentDescription="@null"/>
+</FrameLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:id="@+id/user_dict_settings_add_dialog_top" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <EditText android:layout_gravity="left|right|center_vertical|center_horizontal|fill_horizontal|center" android:id="@+id/user_dictionary_add_word_text" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:layout_marginBottom="8dp" android:hint="@string/user_dict_settings_add_word_hint" android:maxLength="@integer/maximum_user_dictionary_word_length" android:inputType="textNoSuggestions" android:imeOptions="flagNoFullscreen" android:layout_marginStart="8dp">
+        <requestFocus/>
+    </EditText>
+    <GridLayout android:id="@+id/user_dictionary_add_word_grid" android:layout_width="match_parent" android:layout_height="wrap_content" android:columnCount="2" android:layout_marginStart="8dp" android:layout_marginEnd="8dp">
+        <TextView android:layout_gravity="left|center_vertical|center_horizontal|center|start" android:id="@+id/user_dictionary_add_shortcut_label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/user_dict_settings_add_shortcut_option_name" style="?android:attr/textAppearanceSmall"/>
+        <EditText android:layout_gravity="left|right|center_vertical|center_horizontal|fill_horizontal|center" android:id="@+id/user_dictionary_add_shortcut" android:layout_width="wrap_content" android:layout_marginTop="8dp" android:layout_marginBottom="8dp" android:hint="@string/user_dict_settings_add_shortcut_hint" android:maxLength="@integer/maximum_user_dictionary_word_length" android:inputType="textNoSuggestions" android:imeOptions="flagNoFullscreen" android:layout_marginStart="8dp"/>
+    </GridLayout>
+</LinearLayout>

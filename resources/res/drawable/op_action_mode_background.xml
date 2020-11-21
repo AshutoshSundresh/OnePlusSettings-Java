@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:gravity="fill" android:id="@+id/actionbar_background">
+        <shape android:tint="@android:color/transparent" android:shape="rectangle">
+            <solid android:color="@android:color/transparent"/>
+        </shape>
+    </item>
+    <item android:gravity="top|left|right|center_vertical|center_horizontal|fill_horizontal|center" android:id="@+id/actionbar_divider">
+        <shape android:tint="?attr/onePlusBgColor" android:shape="rectangle">
+            <size android:height="73dp"/>
+            <solid android:color="@android:color/white"/>
+        </shape>
+    </item>
+</layer-list>

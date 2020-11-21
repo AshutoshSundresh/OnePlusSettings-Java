@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:height="@dimen/op_custom_font_item_hight" android:width="@dimen/op_custom_font_item_width" android:drawable="@drawable/contextual_card_bg"/>
+    <item android:gravity="top|left|center_vertical|center_horizontal|center|start" android:drawable="@drawable/op_checkbox" android:top="@dimen/op_control_margin_space2" android:start="@dimen/op_control_margin_space2"/>
+</layer-list>

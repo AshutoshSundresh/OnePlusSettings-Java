@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.setupdesign.view.FillContentLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/progress_circle_container" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ProgressBar android:layout_gravity="top|center_vertical|center_horizontal|center" android:id="@+id/progress_circle" android:layout_width="match_parent" android:layout_height="match_parent" style="@style/SudFourColorIndeterminateProgressBar"/>
+</com.google.android.setupdesign.view.FillContentLayout>

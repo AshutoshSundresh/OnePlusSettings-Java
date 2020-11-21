@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:padding="16dp" android:layout_width="match_parent" android:layout_height="match_parent">
+    <TextView android:textSize="30dp" android:textColor="@color/title_color" android:gravity="bottom" android:id="@+id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minHeight="48dp" android:text="@string/crypt_keeper_setup_title" android:layout_centerVertical="true" android:layout_alignParentStart="true"/>
+    <RelativeLayout android:id="@+id/top_divider" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <ProgressBar android:id="@+id/progress_bar" android:layout_width="match_parent" android:layout_height="wrap_content" style="?android:attr/progressBarStyleHorizontal"/>
+    </RelativeLayout>
+    <TextView android:textAppearance="?android:attr/textAppearanceMedium" android:id="@+id/status" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    <ImageView android:layout_gravity="bottom|right|center_vertical|center_horizontal|center|end" android:id="@+id/encroid" android:layout_width="wrap_content" android:layout_height="0dp" android:src="@drawable/encroid_waiting" android:layout_weight="1" android:contentDescription="@null"/>
+    <Button android:layout_gravity="center" android:id="@+id/factory_reset" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="32dp" android:text="@string/master_clear_button_text"/>
+</LinearLayout>

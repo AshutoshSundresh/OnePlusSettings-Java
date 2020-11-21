@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:background="#80000000" android:layout_width="match_parent" android:layout_height="match_parent" android:forceHasOverlappingRendering="false">
+    <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="16dp" android:layout_marginEnd="16dp">
+        <TextView android:textSize="20sp" android:textColor="?android:attr/textColorPrimary" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@android:string/android_preparing_apk"/>
+        <ProgressBar android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="12.75dp" android:indeterminate="true" android:colorControlActivated="?android:attr/textColorPrimary" style="@style/Widget.Material.ProgressBar.Horizontal"/>
+    </LinearLayout>
+</FrameLayout>

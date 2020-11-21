@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <TextView android:textAppearance="@style/op_control_text_style_h3" android:textColor="?attr/onePlusEmptyTextTitleColor" android:id="@+id/empty_text_title" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/op_control_margin_space2"/>
+    <TextView android:textColor="?attr/onePlusTextColorSecondary" android:id="@+id/empty_text_body" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+</LinearLayout>

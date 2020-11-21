@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:id="@+id/request_background_location_permission" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:orientation="horizontal" android:paddingTop="18dp" android:paddingBottom="0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="8dp" android:paddingEnd="10dp">
+        <ImageView android:layout_width="40dp" android:layout_height="wrap_content" android:src="@drawable/ic_settings_location" android:tint="?android:attr/colorAccent"/>
+        <TextView android:textAppearance="?attr/textAppearanceSubtitle1" android:textSize="16sp" android:textColor="?android:attr/textColorPrimary" android:gravity="center_vertical" android:paddingRight="2dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/twilight_mode_location_off_dialog_message" android:layout_marginStart="24dp"/>
+    </LinearLayout>
+    <Button android:layout_gravity="end" android:id="@+id/go_to_location_setting" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/twilight_mode_launch_location" style="@style/Widget.AppCompat.Button.Borderless.Colored"/>
+</LinearLayout>

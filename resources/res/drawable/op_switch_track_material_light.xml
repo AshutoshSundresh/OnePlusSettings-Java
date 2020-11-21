@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_checked="true">
+        <layer-list>
+            <item android:gravity="left|right|center_vertical|center_horizontal|fill_horizontal|center">
+                <shape android:tint="@color/op_switch_track_material_light" android:shape="rectangle">
+                    <corners android:radius="8.5dp"/>
+                    <solid android:color="@android:color/white"/>
+                    <size android:height="17dp"/>
+                </shape>
+            </item>
+        </layer-list>
+    </item>
+    <item android:state_checked="false">
+        <layer-list>
+            <item android:gravity="left|right|center_vertical|center_horizontal|fill_horizontal|center">
+                <shape android:tint="@color/op_switch_track_material_light" android:shape="rectangle">
+                    <corners android:radius="8.5dp"/>
+                    <solid android:color="@android:color/white"/>
+                    <size android:height="17dp"/>
+                </shape>
+            </item>
+        </layer-list>
+    </item>
+</selector>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android" android:tint="?attr/colorAccent" android:height="24dp" android:width="24dp" android:viewportWidth="48" android:viewportHeight="48">
+    <group android:name="thumb">
+        <path android:fillColor="#161719" android:pathData="M24,24m-24,0a24,24 0,1 1,48 0a24,24 0,1 1,-48 0"/>
+    </group>
+</vector>

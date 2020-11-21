@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <FrameLayout android:layout_width="match_parent" android:layout_height="match_parent" settings:layout_behavior="com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior">
+        <FrameLayout android:id="@+id/list_container" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent">
+            <com.oneplus.settings.edgeeffect.SpringRelativeLayout android:id="@+id/spring_layout" android:focusable="true" android:focusableInTouchMode="true" android:saveEnabled="false" android:layout_width="match_parent" android:layout_height="match_parent">
+                <androidx.recyclerview.widget.RecyclerView android:id="@+id/apps_list" android:scrollbars="none" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="match_parent" settings:fastScrollEnabled="true" settings:fastScrollHorizontalThumbDrawable="@drawable/thumb_drawable" settings:fastScrollHorizontalTrackDrawable="@drawable/line_drawable" settings:fastScrollVerticalThumbDrawable="@drawable/thumb_drawable" settings:fastScrollVerticalTrackDrawable="@drawable/line_drawable"/>
+            </com.oneplus.settings.edgeeffect.SpringRelativeLayout>
+            <com.google.android.material.emptyview.EmptyPageView android:textAppearance="?android:attr/textAppearanceLarge" android:gravity="center" android:layout_gravity="center" android:id="@android:id/empty" android:visibility="invisible" android:layout_width="match_parent" android:layout_height="match_parent" android:text="@string/no_applications"/>
+        </FrameLayout>
+        <include layout="@layout/loading_container"/>
+    </FrameLayout>
+    <com.google.android.material.appbar.AppBarLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+        <FrameLayout android:id="@+id/pinned_header" android:layout_width="match_parent" android:layout_height="wrap_content" settings:layout_scrollFlags="5"/>
+    </com.google.android.material.appbar.AppBarLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

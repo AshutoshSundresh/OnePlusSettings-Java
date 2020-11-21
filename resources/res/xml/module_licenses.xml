@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto" android:title="@string/module_license_title">
+    <com.oneplus.settings.ui.OPPreferenceHeaderMargin android:key="preference_divider_line" android:order="-300"/>
+    <PreferenceCategory android:layout="@layout/preference_category_no_label" android:title="@string/summary_placeholder" android:key="module_licenses_category" settings:controller="com.android.settings.deviceinfo.legal.ModuleLicensesPreferenceController"/>
+</PreferenceScreen>

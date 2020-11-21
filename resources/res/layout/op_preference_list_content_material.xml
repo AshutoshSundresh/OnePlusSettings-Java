@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:background="@color/op_control_custom_background_color" android:layout_width="match_parent" android:layout_height="match_parent">
+    <androidx.appcompat.widget.Toolbar android:id="@+id/action_bar" android:layout_width="match_parent" android:layout_height="?android:attr/actionBarSize"/>
+    <LinearLayout android:orientation="vertical" android:id="@+id/header_margin" android:visibility="gone" android:layout_width="match_parent" android:layout_height="@dimen/op_control_margin_space4"/>
+    <ListView android:scrollbarAlwaysDrawVerticalTrack="true" android:id="@android:id/list" android:visibility="gone" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="match_parent" android:drawSelectorOnTop="false" android:cacheColorHint="@android:color/transparent" android:divider="@color/oneplus_main_line" android:dividerHeight="@dimen/op_control_divider_height_standard"/>
+    <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:id="@+id/id_empty" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent">
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/op_sound_no_file" android:scaleType="fitCenter" android:layout_centerVertical="true"/>
+        <TextView android:textSize="16sp" android:textColor="@color/oneplus_nofile_tips" android:gravity="center" android:layout_gravity="center" android:paddingTop="8dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/oneplus_no_file_tips"/>
+    </LinearLayout>
+    <ProgressBar android:layout_gravity="center" android:id="@+id/id_progress" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" style="?android:attr/progressBarStyle"/>
+</LinearLayout>

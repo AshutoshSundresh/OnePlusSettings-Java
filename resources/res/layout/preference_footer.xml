@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:background="?android:attr/selectableItemBackground" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="?android:attr/listPreferredItemHeight" android:paddingStart="?android:attr/listPreferredItemPaddingStart" android:paddingEnd="?android:attr/listPreferredItemPaddingEnd">
+    <LinearLayout android:gravity="top|left|center_vertical|center_horizontal|center|start" android:orientation="horizontal" android:id="@+id/icon_frame" android:paddingTop="16dp" android:paddingBottom="4dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="56dp" android:paddingEnd="12dp">
+        <ImageView android:id="@android:id/icon" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+    </LinearLayout>
+    <com.android.settingslib.widget.LinkTextView android:textColor="?android:attr/textColorSecondary" android:ellipsize="marquee" android:id="@android:id/title" android:paddingTop="16dp" android:paddingBottom="16dp" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+</LinearLayout>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:background="?android:attr/activatedBackgroundIndicator" android:paddingRight="?android:attr/listPreferredItemPaddingRight" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="?android:attr/listPreferredItemHeightSmall" android:paddingEnd="?android:attr/listPreferredItemPaddingEnd">
+    <LinearLayout android:background="?android:attr/selectableItemBackground" android:paddingLeft="?android:attr/listPreferredItemPaddingLeft" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:paddingStart="?android:attr/listPreferredItemPaddingStart">
+        <LinearLayout android:gravity="center" android:layout_gravity="center_vertical" android:orientation="horizontal" android:id="@+id/icon_frame" android:layout_width="@dimen/op_control_avatar_size3" android:layout_height="@dimen/op_control_avatar_size3" android:layout_marginEnd="@dimen/op_control_margin_space3">
+            <androidx.preference.internal.PreferenceImageView android:id="@android:id/icon" android:layout_width="wrap_content" android:layout_height="wrap_content" app:maxHeight="@dimen/op_control_avatar_size3" app:maxWidth="@dimen/op_control_avatar_size3"/>
+        </LinearLayout>
+        <RelativeLayout android:id="@+id/text_layout" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_marginTop="@dimen/op_control_margin_list_top4" android:layout_marginBottom="@dimen/op_control_margin_list_bottom4" android:layout_weight="1">
+            <TextView android:ellipsize="marquee" android:id="@android:id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" style="@style/OnePlus.TextAppearance.List.Title"/>
+            <TextView android:layout_gravity="start" android:id="@android:id/summary" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="10" android:layout_below="@android:id/title" android:layout_alignLeft="@android:id/title" android:textAlignment="viewStart" android:layout_alignStart="@android:id/title" style="@style/OnePlus.TextAppearance.List.Summary"/>
+        </RelativeLayout>
+    </LinearLayout>
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/two_target_divider" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/op_control_margin_list_top1">
+        <View android:layout_gravity="center_vertical" android:id="@+id/switch_divider" android:background="?attr/onePlusDividerColor" android:layout_width="1dp" android:layout_height="21dp" android:layout_marginEnd="12dp"/>
+        <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:id="@android:id/widget_frame" android:layout_width="45dp" android:layout_height="45dp"/>
+    </LinearLayout>
+</LinearLayout>

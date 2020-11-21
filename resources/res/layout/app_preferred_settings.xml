@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:paddingBottom="5dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/op_control_margin_screen_left3">
+    <TextView android:textColor="@color/op_control_text_color_secondary" android:id="@+id/auto_launch" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/op_control_margin_list_top4" android:layout_marginBottom="@dimen/op_control_margin_list_bottom4" style="@style/op_control_text_style_h6"/>
+    <Button android:id="@+id/clear_activities_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/op_control_margin_list_top4" android:text="@string/clear_activities"/>
+</LinearLayout>

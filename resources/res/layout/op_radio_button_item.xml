@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="center_vertical" android:background="?android:attr/selectableItemBackground" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="?android:attr/listPreferredItemHeightSmall" android:paddingStart="63dp" android:paddingEnd="@dimen/op_control_margin_space5">
+    <LinearLayout android:gravity="left|center_vertical|center_horizontal|center|start" android:orientation="horizontal" android:id="@android:id/icon_frame" android:paddingTop="4dp" android:paddingBottom="4dp" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="@dimen/op_control_margin_space10" android:paddingEnd="12dp">
+        <com.android.internal.widget.PreferenceImageView android:id="@android:id/icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="@dimen/op_control_icon_size_display5" android:maxHeight="@dimen/op_control_icon_size_display5"/>
+    </LinearLayout>
+    <RelativeLayout android:paddingTop="16dp" android:paddingBottom="16dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1">
+        <TextView android:textAppearance="?android:attr/textAppearanceListItem" android:ellipsize="marquee" android:id="@+id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true"/>
+        <TextView android:textAppearance="?android:attr/textAppearanceListItemSecondary" android:textColor="@color/oneplus_contorl_text_color_secondary" android:ellipsize="end" android:id="@+id/summary" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="10" android:layout_below="@android:id/title" android:layout_alignStart="@android:id/title"/>
+    </RelativeLayout>
+    <RadioButton android:layout_gravity="center" android:id="@+id/op_lab_feature_radio_button" android:focusable="false" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+</LinearLayout>

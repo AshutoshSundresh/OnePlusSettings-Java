@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.setupdesign.GlifLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/setup_wizard_layout" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/SudContentFrame">
+        <ImageView android:gravity="center" android:id="@+id/sud_layout_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_warning_googred_48dp" style="@style/SudGlifIcon"/>
+        <TextView android:gravity="center" android:id="@+id/sud_layout_title" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/ca_certificate_warning_title" style="@style/SudGlifHeaderTitle"/>
+        <TextView android:id="@+id/sud_layout_description" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="16dp" android:text="@string/ca_certificate_warning_description" style="@style/SudDescription.Glif"/>
+    </LinearLayout>
+</com.google.android.setupdesign.GlifLayout>

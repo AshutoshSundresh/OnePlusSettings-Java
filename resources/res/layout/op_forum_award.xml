@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.oneplus.settings.edgeeffect.SpringNestScrollView xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent" android:animateLayoutChanges="true">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:paddingStart="@dimen/op_control_margin_screen_left3" android:paddingEnd="@dimen/op_control_margin_screen_right3">
+        <TextView android:textColor="@color/op_control_text_color_primary" android:gravity="left" android:id="@+id/forum_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="33dp" android:text="@string/oneplus_forum_title" style="@style/op_control_text_style_h3"/>
+        <TextView android:textColor="@color/op_control_text_color_primary" android:gravity="left" android:id="@+id/forum_summary" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16dp" android:text="@string/oneplus_forum_award_summary" android:lineSpacingExtra="6dp" style="@style/op_control_text_style_body1"/>
+        <ImageView android:layout_gravity="center" android:id="@+id/forum_imageview" android:layout_width="91dp" android:layout_height="70dp" android:layout_marginTop="26dp" android:contentDescription="@null"/>
+        <TextView android:textColor="@color/op_control_text_color_secondary" android:gravity="center" android:id="@+id/forum_contributors" android:layout_width="270dp" android:layout_height="wrap_content" android:layout_marginTop="26dp" android:layout_marginBottom="@dimen/oneplus_contorl_layout_margin_top3" android:lineSpacingExtra="11dp" style="@style/op_control_text_style_body1"/>
+    </LinearLayout>
+</com.oneplus.settings.edgeeffect.SpringNestScrollView>

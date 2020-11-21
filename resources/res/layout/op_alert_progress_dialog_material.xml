@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="center_vertical" android:orientation="vertical" android:id="@+id/parentPanel" android:layout_width="match_parent" android:layout_height="match_parent" android:paddingEnd="0dp">
+    <include layout="@layout/alert_progress_dialog_title_material"/>
+    <FrameLayout android:id="@+id/contentPanel" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <androidx.core.widget.NestedScrollView android:id="@+id/scrollView" android:paddingTop="27dp" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <TextView android:textColor="?attr/onePlusTextColorSecondary" android:id="@android:id/message" android:paddingBottom="27dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="24dp" android:paddingEnd="24dp" style="@style/op_control_text_style_h6"/>
+                <Space android:id="@+id/textSpacerNoButtons" android:visibility="gone" android:layout_width="0dp" android:layout_height="27dp"/>
+            </LinearLayout>
+        </androidx.core.widget.NestedScrollView>
+    </FrameLayout>
+    <FrameLayout android:id="@+id/customPanel" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <FrameLayout android:id="@android:id/custom" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    </FrameLayout>
+    <include layout="@layout/alert_progress_dialog_button_bar_material"/>
+</LinearLayout>

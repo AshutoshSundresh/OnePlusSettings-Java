@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" android:title="@string/oneplus_ramboost_title">
+    <com.oneplus.settings.system.RamBoostLottieAnimPreference android:selectable="false" android:key="op_ramboost_instructions"/>
+    <SwitchPreference android:title="@string/oneplus_ramboost_switch_title" android:key="op_ramboost_switch" android:summary="@string/oneplus_ramboost_switch_summary"/>
+</PreferenceScreen>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/suggestion_card" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/ContextualCardStyle">
+    <LinearLayout android:orientation="vertical" android:paddingBottom="8dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="112dp">
+        <RelativeLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <ImageView android:id="@android:id/icon" android:layout_width="@dimen/contextual_card_icon_size" android:layout_height="@dimen/contextual_card_icon_size" android:layout_marginTop="16dp" android:layout_marginBottom="6dp" style="@style/SuggestionCardIcon"/>
+            <FrameLayout android:orientation="horizontal" android:id="@+id/close_button" android:paddingTop="8dp" android:layout_width="48dp" android:layout_height="48dp" android:contentDescription="@string/suggestion_button_close" android:paddingEnd="8dp" android:layout_alignParentEnd="true">
+                <ImageView android:layout_gravity="top|right|center_vertical|center_horizontal|center|end" android:layout_width="18dp" android:layout_height="18dp" android:src="@drawable/ic_suggestion_close_button" android:alpha="0.54"/>
+            </FrameLayout>
+        </RelativeLayout>
+        <TextView android:textAppearance="@style/TextAppearance.SuggestionTitle" android:id="@android:id/title" android:fadingEdge="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:singleLine="true" android:layout_marginStart="12dp" android:layout_marginEnd="12dp" style="@style/SuggestionCardText"/>
+        <TextView android:textAppearance="@style/TextAppearance.SuggestionSummary" android:id="@android:id/summary" android:layout_width="match_parent" android:layout_height="wrap_content" android:singleLine="true" android:layout_marginStart="12dp" android:layout_marginEnd="12dp" style="@style/SuggestionCardText"/>
+    </LinearLayout>
+</com.google.android.material.card.MaterialCardView>
